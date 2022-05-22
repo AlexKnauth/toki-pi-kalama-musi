@@ -1,6 +1,6 @@
 #lang info
 
-(define collection "toki-kalama-musi")
+(define collection "toki-pi-kalama-musi")
 
 (define deps
   '("base"

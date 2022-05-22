@@ -1,7 +1,7 @@
-# toki-kalama-musi
+# toki-pi-kalama-musi
 Representing toki pona syllables with musical chords.
 
-"toki kalama musi", literally "communication sound art", intended "music language".
+"toki pi kalama musi", literally "communication of sound art", intended "language of music".
 
 Inspirations:
 1. Project Hail Mary by Andy Weir
