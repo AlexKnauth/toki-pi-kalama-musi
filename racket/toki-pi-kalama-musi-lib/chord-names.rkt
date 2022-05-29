@@ -1,6 +1,8 @@
 #lang racket/base
 
-(provide toki-pona-string->chord-names)
+(provide toki-pona-string->chord-names
+         syllable-start->chord-name-root
+         syllable-end->chord-name-kind)
 
 (require racket/list
          racket/match

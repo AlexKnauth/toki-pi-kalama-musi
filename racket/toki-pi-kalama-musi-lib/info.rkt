@@ -6,7 +6,8 @@
   '("base"
     "collections-lib"
     "functional-lib"
-    "megaparsack-lib"))
+    "megaparsack-lib"
+    "alexknauth-music"))
 
 (define build-deps
   '("rackunit-lib"))
