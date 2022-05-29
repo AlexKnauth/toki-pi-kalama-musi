@@ -7,15 +7,15 @@
 (require racket/list
          racket/match
          racket/string
-         "toki-pona.rkt")
+         "../toki-pona.rkt")
 (module+ test
   (require racket/file
            racket/runtime-path
            rackunit)
   (define-runtime-path introduction.toki-pona.txt
-    "../../examples/introduction.toki-pona.txt")
+    "../../../examples/introduction.toki-pona.txt")
   (define-runtime-path introduction.chord-names.txt
-    "../../examples/introduction.chord-names.txt"))
+    "../../../examples/introduction.chromatic-chord-names.txt"))
 
 ;; ---------------------------------------------------------
 

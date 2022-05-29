@@ -34,7 +34,10 @@ The 10 possible starts of syllables are represented with the 10 possible notes t
    7    |   ti    |    VII   | k
 
 
-The 10 possible ends of syllables are represented with 10 kinds of chords. These are in 2 groups of 5 each: one for vowels, and the other for vowels with "n" added.
+The 10 possible ends of syllables are represented with 10 kinds of chords.
+These are in 2 groups of 5 each:
+one for vowels, and the other for vowels with "n" added.
+These chromatic chords can represent them:
 
  kind | description | end
 ------|-------------|------

@@ -10,7 +10,7 @@
          music/data/note/main
          (submod music/data/note/note example)
          (submod music/data/note/note-held example)
-         "toki-pona.rkt"
+         "../toki-pona.rkt"
          "chord-names.rkt")
 
 ;; TODO: turn into a test
@@ -18,9 +18,9 @@
   (require racket/file
            racket/runtime-path)
   (define-runtime-path introduction.toki-pona.txt
-    "../../examples/introduction.toki-pona.txt")
+    "../../../examples/introduction.toki-pona.txt")
   (define-runtime-path introduction.chords-in-C.musicxml
-    "../../examples/introduction.chords-in-C.musicxml"))
+    "../../../examples/introduction.chromatic-chords-in-C.musicxml"))
 
 (module+ main
   (define introduction-wordtokens
