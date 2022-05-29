@@ -73,7 +73,7 @@
       TREBLE-CLEF
       (key 0)
       (time-sig/nd 4 duration-quarter)
-      (tempo 100 duration-quarter)
+      (tempo 170 duration-quarter)
       (wordtokens->lasting-chords wts))))))
 
 ;; wordtokens->lasting-chords : WordTokens -> [Listof [Lasting Chord]]
