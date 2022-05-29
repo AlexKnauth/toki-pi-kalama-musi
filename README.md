@@ -54,3 +54,36 @@ These chromatic chords can represent them:
  m    | minor       | an
  Maj7 | Major 7     | en
  m7   | minor 7     | in
+
+Or these diatonic chord shapes can represent them:
+
+ kind | description | end
+------|-------------|------
+ 16   | Sixth       | u
+ 14   | Fourth      | o
+ 1    | Unison      | a
+ 15   | Fifth       | e
+ 13   | Third       | i
+
+ kind | description | end
+------|-------------|-----
+ 136  | Figured 6   | un
+ 146  | Figured 64  | on
+ 17   | Seventh     | an
+ 157  | Power 7     | en
+ 137  | Shell 7     | in
+
+With interval qualities from scales on the roots:
+
+ root  | scale name | scale degrees
+-------|------------|---------------------
+  b6   | Lydian     | 1  2  3 #4  5  6  7
+  b3   | Major      | 1  2  3  4  5  6  7
+  b7   | Mixolydian | 1  2  3  4  5  6 b7
+   4   | Dorian     | 1  2 b3  4  5  6 b7
+   1   | Major      | 1  2  3  4  5  6  7
+   5   | Mixolydian | 1  2  3  4  5  6 b7
+   2   | Dorian     | 1  2 b3  4  5  6 b7
+   6   | Minor      | 1  2 b3  4  5 b6 b7
+   3   | Phrygian   | 1 b2 b3  4  5 b6 b7
+   7   | Locrian    | 1 b2 b3  4 b5 b6 b7
