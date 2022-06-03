@@ -1,11 +1,6 @@
 #lang racket/base
 
-(provide chord-root-name->interval
-         punctuation->lasting-rests
-         eighth-rest)
-
-(require racket/list
-         racket/match
+(require racket/match
          music/notation/musicxml/musicxml-file
          music/notation/musicxml/score
          music/data/score/main
@@ -15,7 +10,10 @@
          (submod music/data/note/note example)
          (submod music/data/note/note-held example)
          "../toki-pona.rkt"
-         "chord-names.rkt")
+         "chord-notes.rkt"
+         (only-in "../chromatic/musicxml.rkt"
+                  punctuation->lasting-rests
+                  eighth-rest))
 
 ;; TODO: turn into a test
 (module+ main
@@ -23,8 +21,8 @@
            racket/runtime-path)
   (define-runtime-path introduction.toki-pona.txt
     "../../../examples/introduction.toki-pona.txt")
-  (define-runtime-path introduction.chords-in-C.musicxml
-    "../../../examples/introduction.chromatic-chords-in-C.musicxml"))
+  (define-runtime-path introduction.diatonic-chords-in-C.musicxml
+    "../../../examples/introduction.diatonic-chords-in-C.musicxml"))
 
 (module+ main
   (define introduction-wordtokens
@@ -32,33 +30,8 @@
      (file->string introduction.toki-pona.txt)))
   (define introduction-chords-in-C
     (wordtokens->musicxml introduction-wordtokens))
-  (write-musicxml-file introduction.chords-in-C.musicxml introduction-chords-in-C))
-
-(define eighth-rest (lasting duration-eighth '()))
-
-(define chord-root-name/interval-table
-  (list (list "I" unison)
-        (list "II" M2nd)
-        (list "bIII" m3rd)
-        (list "III" M3rd)
-        (list "IV" P4th)
-        (list "V" P5th)
-        (list "bVI" m6th)
-        (list "VI" M6th)
-        (list "bVII" m7th)
-        (list "VII" M7th)))
-
-(define chord-kind-name/kind-table
-  (list (list "sus4" sus-4)
-        (list "sus2" sus-2)
-        (list "5" open-power)
-        (list "" major-triad)
-        (list "6" major-add-6)
-        (list "m6" minor-add-6)
-        (list "7" dominant-7)
-        (list "m" minor-triad)
-        (list "Maj7" major-7)
-        (list "m7" minor-7)))
+  (write-musicxml-file introduction.diatonic-chords-in-C.musicxml
+                       introduction-chords-in-C))
 
 ;; wordtokens->score-partwise : WordTokens -> MXexpr
 (define (wordtokens->musicxml wts)
@@ -99,31 +72,5 @@
   (map syllable->lasting-chord w))
 
 ;; syllable->lasting-chord : Syllable -> [Lasting Chord]
-(define/match (syllable->lasting-chord s)
-  [[(syllable up? start end)]
-   ;; TODO: accent if up? is true
-   (lasting duration-eighth
-            (chord (chord-root-name->note
-                    (syllable-start->chord-name-root start))
-                   (chord-kind-name->kind
-                    (syllable-end->chord-name-kind end))))])
-
-(define (chord-root-name->interval s)
-  (second (assoc s chord-root-name/interval-table)))
-
-(define (chord-root-name->note s)
-  (note+ C4 (chord-root-name->interval s)))
-
-(define (chord-kind-name->kind s)
-  (second (assoc s chord-kind-name/kind-table)))
-
-;; punctuation->lasting-rests : String -> [Listof [Lasting Null]]
-;; (many+/p (char-in/p ".!?,;"))
-(define (punctuation->lasting-rests s)
-  (define n
-    (for/sum ([c (in-string s)])
-      (match c
-        [#\, 2]
-        [#\; 3]
-        [(or #\. #\! #\?) 4])))
-  (make-list n eighth-rest))
+(define (syllable->lasting-chord s)
+  (lasting duration-eighth (syllable->chord s)))
