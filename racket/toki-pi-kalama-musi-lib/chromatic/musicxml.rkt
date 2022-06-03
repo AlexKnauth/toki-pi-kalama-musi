@@ -1,5 +1,7 @@
 #lang racket/base
 
+(provide chord-root-name->interval)
+
 (require racket/list
          racket/match
          music/notation/musicxml/musicxml-file
@@ -104,8 +106,11 @@
                    (chord-kind-name->kind
                     (syllable-end->chord-name-kind end))))])
 
+(define (chord-root-name->interval s)
+  (second (assoc s chord-root-name/interval-table)))
+
 (define (chord-root-name->note s)
-  (note+ C4 (second (assoc s chord-root-name/interval-table))))
+  (note+ C4 (chord-root-name->interval s)))
 
 (define (chord-kind-name->kind s)
   (second (assoc s chord-kind-name/kind-table)))
