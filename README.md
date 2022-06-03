@@ -78,12 +78,12 @@ With interval qualities from scales on the roots:
  root  | scale name | scale degrees
 -------|------------|---------------------
   b6   | Lydian     | 1  2  3 #4  5  6  7
-  b3   | Major      | 1  2  3  4  5  6  7
-  b7   | Mixolydian | 1  2  3  4  5  6 b7
-   4   | Dorian     | 1  2 b3  4  5  6 b7
-   1   | Major      | 1  2  3  4  5  6  7
-   5   | Mixolydian | 1  2  3  4  5  6 b7
-   2   | Dorian     | 1  2 b3  4  5  6 b7
-   6   | Minor      | 1  2 b3  4  5 b6 b7
-   3   | Phrygian   | 1 b2 b3  4  5 b6 b7
+  b3   | Lydian     | 1  2  3 #4  5  6  7
+  b7   | Lydian     | 1  2  3 #4  5  6  7
+   4   | Major      | 1  2  3  4  5  6  7
+   1   | Mixolydian | 1  2  3  4  5  6 b7
+   5   | Dorian     | 1  2 b3  4  5  6 b7
+   2   | Minor      | 1  2 b3  4  5 b6 b7
+   6   | Phrygian   | 1 b2 b3  4  5 b6 b7
+   3   | Locrian    | 1 b2 b3  4 b5 b6 b7
    7   | Locrian    | 1 b2 b3  4 b5 b6 b7
