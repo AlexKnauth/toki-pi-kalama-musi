@@ -89,3 +89,18 @@ With interval qualities from scales on the roots:
    7   | Locrian    | 1 b2 b3  4 b5 b6 b7
 
 ![introduction diatonic-chords-in-C](https://user-images.githubusercontent.com/6600123/172023486-9ac35f23-cb1e-495d-a6d2-9ef6f2d75a2e.jpg)
+
+## Instalation Instructions
+
+Clone the repository
+
+```
+git clone https://github.com/AlexKnauth/toki-pi-kalama-musi.git
+```
+
+Go into the `racket/toki-pi-kalama-musi-lib` directory and install it as a linked package
+
+```
+cd racket/toki-pi-kalama-musi-lib
+raco pkg install
+```
