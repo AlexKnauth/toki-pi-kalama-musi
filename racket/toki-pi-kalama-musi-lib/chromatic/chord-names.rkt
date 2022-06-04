@@ -19,17 +19,31 @@
 
 ;; ---------------------------------------------------------
 
+#|
+ degree | solfege | numeral  | start
+--------|---------|----------|-------
+  b6    |   le    |   bVI    | j
+  b3    |   me    |   bIII   | w
+  b7    |   te    |   bVII   | l
+   4    |   fa    |   IV     | m
+   1    |   do    |    I     | --
+   5    |   sol   |    V     | n
+   2    |   re    |    II    | s
+   6    |   la    |    VI    | k
+   3    |   mi    |    III   | p
+   7    |   ti    |    VII   | t
+|#
 (define syllable-start/chord-root-table
   '[("j" "bVI")
-    ("l" "bIII")
-    ("w" "bVII")
+    ("w" "bIII")
+    ("l" "bVII")
     ("m" "IV")
     ("" "I")
     ("n" "V")
     ("s" "II")
-    ("p" "VI")
-    ("t" "III")
-    ("k" "VII")])
+    ("k" "VI")
+    ("p" "III")
+    ("t" "VII")])
 (define chord-root/syllable-start-table
   (map reverse syllable-start/chord-root-table))
 

@@ -23,15 +23,15 @@ The 10 possible starts of syllables are represented with the 10 possible notes t
  degree | solfege | numeral  | start
 --------|---------|----------|-------
   b6    |   le    |   bVI    | j
-  b3    |   me    |   bIII   | l
-  b7    |   te    |   bVII   | w
+  b3    |   me    |   bIII   | w
+  b7    |   te    |   bVII   | l
    4    |   fa    |   IV     | m
    1    |   do    |    I     | --
    5    |   sol   |    V     | n
    2    |   re    |    II    | s
-   6    |   la    |    VI    | p
-   3    |   mi    |    III   | t
-   7    |   ti    |    VII   | k
+   6    |   la    |    VI    | k
+   3    |   mi    |    III   | p
+   7    |   ti    |    VII   | t
 
 
 The 10 possible ends of syllables are represented with 10 kinds of chords.
