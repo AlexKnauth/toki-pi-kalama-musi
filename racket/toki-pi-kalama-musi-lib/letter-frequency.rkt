@@ -17,7 +17,7 @@
   (for/fold ([acc (hasheqv)])
             ([c (in-string s)]
              #:when (char-alphabetic? c))
-    (hash-update acc c add1 0)))
+    (hash-update acc (char-foldcase c) add1 0)))
 
 ;; string-letter-fractions : String -> [Hashof Char ExactRational]
 (define (string-letter-fractions s)
