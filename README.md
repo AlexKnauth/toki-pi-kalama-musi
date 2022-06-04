@@ -92,6 +92,10 @@ With interval qualities from scales on the roots:
 
 ## Instalation Instructions
 
+Either in a clone or directly with the racket package manager
+
+#### Install in a clone
+
 Clone the repository and go into the directory
 
 ```
@@ -104,4 +108,12 @@ Go into the `racket/toki-pi-kalama-musi-lib` directory and install it as a linke
 ```
 cd racket/toki-pi-kalama-musi-lib
 raco pkg install
+```
+
+#### Install directly with the racket package manager
+
+Install the package source `git://github.com/AlexKnauth/toki-pi-kalama-musi?path=racket/toki-pi-kalama-musi-lib`
+
+```
+raco pkg install git://github.com/AlexKnauth/toki-pi-kalama-musi?path=racket/toki-pi-kalama-musi-lib
 ```
