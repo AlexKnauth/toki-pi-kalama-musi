@@ -92,10 +92,11 @@ With interval qualities from scales on the roots:
 
 ## Instalation Instructions
 
-Clone the repository
+Clone the repository and go into the directory
 
 ```
 git clone https://github.com/AlexKnauth/toki-pi-kalama-musi.git
+cd toki-pi-kalama-musi
 ```
 
 Go into the `racket/toki-pi-kalama-musi-lib` directory and install it as a linked package
