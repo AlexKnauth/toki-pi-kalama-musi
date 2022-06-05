@@ -6,9 +6,13 @@
          <*
          whitespace/p
          lookahead-not-satisfy/p
+         path-string->string
+         directory-string
+         string-suffix?/remove
          )
 
 (require racket/function
+         racket/string
          data/applicative
          data/functor
          data/monad
@@ -38,3 +42,13 @@
 ;; lookahead-not-satisfy/p : [a -> Boolean] -> [Parser a (U Void a)]
 (define (lookahead-not-satisfy/p bad?)
   (lookahead/p (or/p eof/p (satisfy/p (negate bad?)))))
+
+(define (path-string->string ps)
+  (if (string? ps) ps (path->string ps)))
+
+(define (directory-string ps)
+  (path-string->string (path->directory-path ps)))
+
+(define (string-suffix?/remove s suffix)
+  (and (string-suffix? s suffix)
+       (substring s 0 (- (string-length s) (string-length suffix)))))
