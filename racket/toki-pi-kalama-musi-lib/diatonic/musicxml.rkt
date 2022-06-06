@@ -8,13 +8,11 @@
          "../common/musicxml.rkt"
          "chord-notes.rkt")
 (module+ main
-  (require racket/cmdline
-           racket/file
-           file/glob
+  (require racket/file
            txexpr
            music/notation/musicxml/musicxml-file
            music/notation/musicxml/read/musicxml-file
-           "../util.rkt"))
+           "../common/command-line.rkt"))
 (module+ test
   (require racket/file
            racket/runtime-path
@@ -54,42 +52,21 @@
 ;; ---------------------------------------------------------
 
 (module+ main
-  (define force? (make-parameter #f))
-  (define input-paths
-    (command-line
-     #:program "chromatic-musicxml"
-     #:once-each
-     [("-f" "--force") "Force overwrite output files"
-                       (force? #t)]
-     #:args path-strings
-     (cond
-       [(empty? path-strings) (glob "*.toki-pona.txt")]
-       [else
-        (append*
-         (for/list ([ps (in-list path-strings)])
-           (cond
-             [(directory-exists? ps)
-              (glob (string-append (directory-string ps) "*.toki-pona.txt"))]
-             [else (list ps)])))])))
-  (for ([ip (in-list input-paths)])
-    (define ips (path-string->string ip))
-    (define base
-      (or (string-suffix?/remove ips ".toki-pona.txt")
-          (string-suffix?/remove ips ".txt")
-          ips))
-    (define op (string-append base ".diatonic-chords-in-C.musicxml"))
-    (cond
-      [(force?)
-       (write-musicxml-file op
-                            (wordtokens->musicxml
-                             (toki-pona-string->wordtokens (file->string ip)))
-                            #:exists 'replace)]
-      [(file-exists? op)
-       (check-txexprs-equal? (wordtokens->musicxml
-                              (toki-pona-string->wordtokens (file->string ip)))
-                             (read-musicxml-file op))]
-      [else
-       (write-musicxml-file op
-                            (wordtokens->musicxml
-                             (toki-pona-string->wordtokens (file->string ip)))
-                            #:exists 'error)])))
+  (command-line/file-suffix-bidirectional
+   #:program "chromatic-chord-names"
+   #:input-suffix ".toki-pona.txt"
+   #:output-suffix ".diatonic-chords-in-C.musicxml"
+   #:force (λ (ip op)
+             (write-musicxml-file op
+                                  (wordtokens->musicxml
+                                   (toki-pona-string->wordtokens (file->string ip)))
+                                  #:exists 'replace))
+   #:check (λ (ip op)
+             (check-txexprs-equal? (wordtokens->musicxml
+                                    (toki-pona-string->wordtokens (file->string ip)))
+                                   (read-musicxml-file op)))
+   #:infer (λ (ip op)
+             (write-musicxml-file op
+                                  (wordtokens->musicxml
+                                   (toki-pona-string->wordtokens (file->string ip)))
+                                  #:exists 'error))))

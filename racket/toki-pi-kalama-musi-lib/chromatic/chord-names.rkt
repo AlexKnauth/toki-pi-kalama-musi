@@ -9,11 +9,9 @@
          racket/string
          "../toki-pona.rkt")
 (module+ main
-  (require racket/cmdline
-           racket/file
-           file/glob
+  (require racket/file
            rackunit
-           "../util.rkt"))
+           "../common/command-line.rkt"))
 (module+ test
   (require racket/file
            racket/runtime-path
@@ -114,45 +112,24 @@
 ;; ---------------------------------------------------------
 
 (module+ main
-  (define force? (make-parameter #f))
-  (define input-paths
-    (command-line
-     #:program "chromatic-chord-names"
-     #:once-each
-     [("-f" "--force") "Force overwrite output files"
-                       (force? #t)]
-     #:args path-strings
-     (cond
-       [(empty? path-strings) (glob "*.toki-pona.txt")]
-       [else
-        (append*
-         (for/list ([ps (in-list path-strings)])
-           (cond
-             [(directory-exists? ps)
-              (glob (string-append (directory-string ps) "*.toki-pona.txt"))]
-             [else (list ps)])))])))
-  (for ([ip (in-list input-paths)])
-    (define ips (path-string->string ip))
-    (define base
-      (or (string-suffix?/remove ips ".toki-pona.txt")
-          (string-suffix?/remove ips ".txt")
-          ips))
-    (define op (string-append base ".chromatic-chord-names.txt"))
-    (cond
-      [(force?)
-       (call-with-output-file*
-        op
-        (λ (out)
-          (displayln (toki-pona-string->chord-names (file->string ip))
-                     out))
-        #:exists 'replace)]
-      [(file-exists? op)
-       (check-equal? (toki-pona-string->chord-names (file->string ip))
-                     (string-trim (file->string op)))]
-      [else
-       (call-with-output-file*
-        op
-        (λ (out)
-          (displayln (toki-pona-string->chord-names (file->string ip))
-                     out))
-        #:exists 'error)])))
+  (command-line/file-suffix-bidirectional
+   #:program "chromatic-chord-names"
+   #:input-suffix ".toki-pona.txt"
+   #:output-suffix ".chromatic-chord-names.txt"
+   #:force (λ (ip op)
+             (call-with-output-file*
+              op
+              (λ (out)
+                (displayln (toki-pona-string->chord-names (file->string ip))
+                           out))
+              #:exists 'replace))
+   #:check (λ (ip op)
+             (check-equal? (toki-pona-string->chord-names (file->string ip))
+                           (string-trim (file->string op))))
+   #:infer (λ (ip op)
+             (call-with-output-file*
+              op
+              (λ (out)
+                (displayln (toki-pona-string->chord-names (file->string ip))
+                           out))
+              #:exists 'error))))
