@@ -1,25 +1,18 @@
 #lang racket/base
 
-(provide chord-root-name->interval
-         punctuation->lasting-rests
-         eighth-rest)
+(provide wordtokens->musicxml)
 
 (require racket/list
          racket/match
-         music/notation/musicxml/score
-         music/data/score/main
          music/data/time/main
          music/data/chord/main
-         music/data/note/main
-         (submod music/data/note/note example)
-         (submod music/data/note/note-held example)
          "../toki-pona.rkt"
+         "../common/musicxml.rkt"
          "chord-names.rkt")
 (module+ main
   (require racket/cmdline
            racket/file
            file/glob
-           rackunit
            txexpr
            music/notation/musicxml/musicxml-file
            music/notation/musicxml/read/musicxml-file
@@ -27,7 +20,6 @@
 (module+ test
   (require racket/file
            racket/runtime-path
-           rackunit
            txexpr
            music/notation/musicxml/read/musicxml-file)
   (define-runtime-path introduction.toki-pona.txt
@@ -45,20 +37,6 @@
 
 ;; ---------------------------------------------------------
 
-(define eighth-rest (lasting duration-eighth '()))
-
-(define chord-root-name/interval-table
-  (list (list "I" unison)
-        (list "II" M2nd)
-        (list "bIII" m3rd)
-        (list "III" M3rd)
-        (list "IV" P4th)
-        (list "V" P5th)
-        (list "bVI" m6th)
-        (list "VI" M6th)
-        (list "bVII" m7th)
-        (list "VII" M7th)))
-
 (define chord-kind-name/kind-table
   (list (list "sus4" sus-4)
         (list "sus2" sus-2)
@@ -73,37 +51,11 @@
 
 ;; wordtokens->score-partwise : WordTokens -> MXexpr
 (define (wordtokens->musicxml wts)
-  (score->musicxml (wordtokens->score wts)))
-
-;; wordtokens->score : WordTokens -> Score
-(define (wordtokens->score wts)
-  (score
-   #false
-   (list
-    (part
-     "Music"
-     (sequence/roll-over-measures
-      duration-whole
-      (position 0 beat-one)
-      TREBLE-CLEF
-      (key 0)
-      (time-sig/nd 4 duration-quarter)
-      (tempo 170 duration-quarter)
-      (wordtokens->lasting-chords wts))))))
+  (lasting-chords->musicxml (wordtokens->lasting-chords wts)))
 
 ;; wordtokens->lasting-chords : WordTokens -> [Listof [Lasting Chord]]
-(define/match (wordtokens->lasting-chords wts)
-  [['()] '()]
-  [[(list (word w))] (word->lasting-chords w)]
-  [[(list (punctuation s))] (punctuation->lasting-rests s)]
-  [[(cons (word w) (and rst (cons (punctuation _) _)))]
-   (append (word->lasting-chords w) (wordtokens->lasting-chords rst))]
-  [[(cons (word w) rst)]
-   (append (word->lasting-chords w)
-           (list eighth-rest)
-           (wordtokens->lasting-chords rst))]
-  [[(cons (punctuation s) rst)]
-   (append (punctuation->lasting-rests s) (wordtokens->lasting-chords rst))])
+(define (wordtokens->lasting-chords wts)
+  (wordtokens-map-words->lasting-chords word->lasting-chords wts))
 
 ;; word->lasting-chords : Word -> [Listof [Lasting Chord]]
 (define (word->lasting-chords w)
@@ -119,25 +71,8 @@
                    (chord-kind-name->kind
                     (syllable-end->chord-name-kind end))))])
 
-(define (chord-root-name->interval s)
-  (second (assoc s chord-root-name/interval-table)))
-
-(define (chord-root-name->note s)
-  (note+ C4 (chord-root-name->interval s)))
-
 (define (chord-kind-name->kind s)
   (second (assoc s chord-kind-name/kind-table)))
-
-;; punctuation->lasting-rests : String -> [Listof [Lasting Null]]
-;; (many+/p (char-in/p ".!?,;"))
-(define (punctuation->lasting-rests s)
-  (define n
-    (for/sum ([c (in-string s)])
-      (match c
-        [#\, 2]
-        [#\; 3]
-        [(or #\. #\! #\?) 4])))
-  (make-list n eighth-rest))
 
 ;; ---------------------------------------------------------
 
