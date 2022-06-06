@@ -7,7 +7,6 @@
     "collections-lib"
     "functional-lib"
     "megaparsack-lib"
-    "alexknauth-music"))
-
-(define build-deps
-  '("rackunit-lib"))
+    "alexknauth-music"
+    "rackunit-lib"
+    "txexpr"))
