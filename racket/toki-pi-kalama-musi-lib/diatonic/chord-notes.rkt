@@ -1,6 +1,9 @@
 #lang racket/base
 
-(provide syllable->chord)
+(provide syllable->chord
+         syllable-start->interval
+         syllable-end->chord-kind/ivl
+         syllable-end->chord-shape)
 
 (require (only-in racket/list second)
          racket/match
@@ -47,13 +50,18 @@
 (define/match (syllable->chord s)
   [[(syllable up? start end)]
    ;; TODO: accent if up? is true
-   (define ivl
-     (chord-root-name->interval
-      (syllable-start->chord-name-root start)))
+   (define ivl (syllable-start->interval start))
    (chord (note+ C4 ivl)
-          (chord-shape->kind
-           (syllable-end->chord-shape end)
-           (interval->scale-kind ivl)))])
+          (syllable-end->chord-kind/ivl ivl end))])
+
+(define (syllable-start->interval start)
+  (chord-root-name->interval
+   (syllable-start->chord-name-root start)))
+
+(define (syllable-end->chord-kind/ivl ivl end)
+  (chord-shape->kind
+   (syllable-end->chord-shape end)
+   (interval->scale-kind ivl)))
 
 (define (syllable-end->chord-shape s)
   (second (assoc s syllable-end/chord-shape-table)))
