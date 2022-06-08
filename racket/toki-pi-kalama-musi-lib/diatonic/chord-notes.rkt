@@ -64,4 +64,5 @@
    (interval->scale-kind ivl)))
 
 (define (syllable-end->chord-shape s)
-  (second (assoc s syllable-end/chord-shape-table)))
+  (second (or (assoc s syllable-end/chord-shape-table)
+              (error 'syllable-end->chord-shape "unknown syllable end: ~v" s))))

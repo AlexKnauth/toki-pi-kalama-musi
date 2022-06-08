@@ -4,6 +4,7 @@
          wordtokens-map-words->lasting-chords
          chord-root-name->note
          chord-root-name->interval
+         interval->chord-root-name
          punctuation->lasting-rests
          eighth-rest)
 
@@ -32,12 +33,19 @@
         (list "VI" M6th)
         (list "bVII" m7th)
         (list "VII" M7th)))
+(define interval/chord-root-name-table
+  (map reverse chord-root-name/interval-table))
 
 (define (chord-root-name->interval s)
-  (second (assoc s chord-root-name/interval-table)))
+  (second (or (assoc s chord-root-name/interval-table)
+              (error 'chord-root-name->interval "unknown chord root name: ~v" s))))
 
 (define (chord-root-name->note s)
   (note+ C4 (chord-root-name->interval s)))
+
+(define (interval->chord-root-name i)
+  (second (or (assoc i interval/chord-root-name-table)
+              (error 'interval->chord-root-name "unknown interval: ~v" i))))
 
 ;; punctuation->lasting-rests : String -> [Listof [Lasting Null]]
 ;; (many+/p (char-in/p ".!?,;"))

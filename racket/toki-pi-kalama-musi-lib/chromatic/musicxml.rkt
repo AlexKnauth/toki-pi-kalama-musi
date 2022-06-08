@@ -70,7 +70,8 @@
                     (syllable-end->chord-name-kind end))))])
 
 (define (chord-kind-name->kind s)
-  (second (assoc s chord-kind-name/kind-table)))
+  (second (or (assoc s chord-kind-name/kind-table)
+              (error 'chord-kind-name->kind "unknown chord kind name: ~v" s))))
 
 ;; ---------------------------------------------------------
 

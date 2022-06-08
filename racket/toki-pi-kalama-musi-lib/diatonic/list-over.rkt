@@ -1,5 +1,8 @@
 #lang racket/base
 
+(provide (struct-out list-over)
+         chord-shape->over/thirds)
+
 (require racket/list)
 (module+ test
   (require rackunit

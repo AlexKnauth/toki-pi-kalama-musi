@@ -103,11 +103,13 @@
 
 ;; syllable-start->chord-name-root : SyllableStart -> String
 (define (syllable-start->chord-name-root s)
-  (second (assoc s syllable-start/chord-root-table)))
+  (second (or (assoc s syllable-start/chord-root-table)
+              (error 'syllable-start->chord-name-root "unknown syllable start: ~v" s))))
 
 ;; syllable-end->chord-name-kind : SyllableEnd -> String
 (define (syllable-end->chord-name-kind s)
-  (second (assoc s syllable-end/chord-kind-table)))
+  (second (or (assoc s syllable-end/chord-kind-table)
+              (error 'syllable-end->chord-name-kind "unknown syllable end: ~v" s))))
 
 ;; ---------------------------------------------------------
 

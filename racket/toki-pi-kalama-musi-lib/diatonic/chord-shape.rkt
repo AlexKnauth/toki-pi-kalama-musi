@@ -1,6 +1,7 @@
 #lang racket/base
 
-(provide chord-shape->kind)
+(provide chord-shape->kind
+         shape-degree->kind-interval)
 (module+ example
   (provide (all-defined-out)))
 
@@ -71,13 +72,16 @@
                   (list unison d4th d6th))))
 
 (define (chord-shape->kind cs sk)
-  (for/list ([step (in-list cs)])
-    (or
-     (for/first ([ivl (in-list sk)]
-                 #:when (ivl-name∆/7=n? ivl step))
-       ivl)
-     (for*/first ([ivl (in-list sk)]
-                  [other (in-list (list lydian locrian))]
-                  #:when (ivl-midi=? ivl (list-ref other step)))
-       ivl)
-     (error "incomplete"))))
+  (for/list ([sd (in-list cs)])
+    (shape-degree->kind-interval sd sk)))
+
+(define (shape-degree->kind-interval sd sk)
+  (or
+   (for/first ([ivl (in-list sk)]
+               #:when (ivl-name∆/7=n? ivl sd))
+     ivl)
+   (for*/first ([ivl (in-list sk)]
+                [other (in-list (list lydian locrian))]
+                #:when (ivl-midi=? ivl (list-ref other sd)))
+     ivl)
+   (error "incomplete")))
