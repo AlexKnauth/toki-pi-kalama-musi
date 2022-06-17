@@ -77,8 +77,8 @@ Or these diatonic inversion chord shapes can represent them:
 
  kind | description | end
 ------|-------------|-----
- 136  | Figured 6   | un
- 146  | Figured 64  | on
+ 156  | Figured 65  | un
+ 134  | Figured 43  | on
  17   | Seventh     | an
  157  | Power 7     | en
  137  | Shell 7     | in

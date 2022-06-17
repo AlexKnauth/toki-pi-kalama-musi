@@ -28,12 +28,11 @@
 
  kind | description | end
 ------|-------------|-----
- 136  | Figured 6   | un
- 146  | Figured 64  | on
+ 156  | Figured 65  | un
+ 134  | Figured 43  | on
  17   | Seventh     | an
  157  | Power 7     | en
  137  | Shell 7     | in
-
 |#
 (define syllable-end/chord-shape-table
   (list (list "u" sixth)
@@ -41,8 +40,8 @@
         (list "a" unison)
         (list "e" fifth)
         (list "i" third)
-        (list "un" figured-6)
-        (list "on" figured-64)
+        (list "un" shell-figured-65)
+        (list "on" shell-figured-43)
         (list "an" seventh)
         (list "en" power-7)
         (list "in" shell-7)))

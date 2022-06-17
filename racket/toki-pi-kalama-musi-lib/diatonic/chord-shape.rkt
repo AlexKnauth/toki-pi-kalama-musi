@@ -27,6 +27,8 @@
   (define figured-42 '(0 1 3 5))
   (define shell-7 '(0 2 6))
   (define power-7 '(0 4 6))
+  (define shell-figured-65 '(0 4 5))
+  (define shell-figured-43 '(0 2 3))
   (define unison '(0))
   (define third '(0 2))
   (define fourth '(0 3))
