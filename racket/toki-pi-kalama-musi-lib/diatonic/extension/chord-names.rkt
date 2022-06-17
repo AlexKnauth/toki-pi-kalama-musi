@@ -25,8 +25,8 @@
            rackunit)
   (define-runtime-path introduction.toki-pona.txt
     "../../../../examples/introduction.toki-pona.txt")
-  (define-runtime-path introduction.diatonic-inversion-chord-names.txt
-    "../../../../examples/introduction.diatonic-inversion-chord-names.txt"))
+  (define-runtime-path introduction.diatonic-extension-chord-names.txt
+    "../../../../examples/introduction.diatonic-extension-chord-names.txt"))
 
 ;; ---------------------------------------------------------
 
@@ -35,7 +35,7 @@
   (check-equal? (toki-pona-string->chord-names
                  (file->string introduction.toki-pona.txt))
                 (string-trim
-                 (file->string introduction.diatonic-inversion-chord-names.txt)))
+                 (file->string introduction.diatonic-extension-chord-names.txt)))
   )
 
 (define (toki-pona-string->chord-names s)
@@ -111,7 +111,34 @@
         (list (list unison d5th m7th) "dim57")
         (list (list unison M3rd M7th) "3Maj7")
         (list (list unison M3rd m7th) "37")
-        (list (list unison m3rd m7th) "m37")))
+        (list (list unison m3rd m7th) "m37")
+        (list (list unison P5th M2nd) "5add9")
+        (list (list unison P5th m2nd) "5addb9")
+        (list (list unison d5th m2nd) "b5addb9")
+        (list (list unison P5th M7th M2nd) "5Maj9")
+        (list (list unison P5th m7th M2nd) "59")
+        (list (list unison P5th m7th m2nd) "5b9")
+        (list (list unison d5th m7th m2nd) "b5b9")
+        (list (list unison M3rd P5th M7th A4th) "Maj7add#11")
+        (list (list unison M3rd P5th M7th P4th) "Maj7add11")
+        (list (list unison M3rd P5th m7th P4th) "7add11")
+        (list (list unison m3rd P5th m7th P4th) "m7add11")
+        (list (list unison m3rd d5th m7th P4th) "m7b5add11")
+        (list (list unison M3rd P5th M2nd) "add9")
+        (list (list unison m3rd P5th M2nd) "madd9")
+        (list (list unison m3rd P5th m2nd) "maddb9")
+        (list (list unison m3rd d5th m2nd) "dimaddb9")
+        (list (list unison M3rd P5th M7th M2nd) "Maj9")
+        (list (list unison M3rd P5th m7th M2nd) "9")
+        (list (list unison m3rd P5th m7th M2nd) "m9")
+        (list (list unison m3rd P5th m7th m2nd) "mb9")
+        (list (list unison m3rd d5th m7th m2nd) "mb9b5")
+        (list (list unison M3rd P5th M7th M2nd P4th) "Maj11")
+        (list (list unison M3rd P5th m7th M2nd P4th) "11")
+        (list (list unison m3rd P5th m7th M2nd P4th) "m11")
+        (list (list unison m3rd P5th m7th m2nd P4th) "m11b9")
+        (list (list unison m3rd d5th m7th m2nd P4th) "m11b9b5")
+        ))
 
 (define interval/major-degree-name-table
   (list (list unison "1")
@@ -134,9 +161,9 @@
 
 (module+ main
   (command-line/file-suffix-bidirectional
-   #:program "diatonic-inversion-chord-names"
+   #:program "diatonic-extension-chord-names"
    #:input-suffix ".toki-pona.txt"
-   #:output-suffix ".diatonic-inversion-chord-names.txt"
+   #:output-suffix ".diatonic-extension-chord-names.txt"
    #:force (λ (ip op)
              (call-with-output-file*
               op

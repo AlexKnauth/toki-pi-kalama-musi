@@ -32,7 +32,17 @@
   (define fourth '(0 3))
   (define fifth '(0 4))
   (define sixth '(0 5))
-  (define seventh '(0 6)))
+  (define seventh '(0 6))
+  (define shape- triad)
+  (define shape5 fifth)
+  (define shape7 figured-7)
+  (define shape9 (append shape7 '(8)))
+  (define shape11 (append shape9 '(10)))
+  (define shape57 power-7)
+  (define shape59 (append shape57 '(8)))
+  (define shape-add9 (append shape- '(8)))
+  (define shape5add9 (append shape5 '(8)))
+  (define shape7add11 (append shape7 '(10))))
 
 ;; chord-shape->kind : ChordShape ScaleKind -> ChordKind
 (module+ test

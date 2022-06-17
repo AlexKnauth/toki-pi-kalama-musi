@@ -20,8 +20,8 @@
            music/notation/musicxml/read/musicxml-file)
   (define-runtime-path introduction.toki-pona.txt
     "../../../../examples/introduction.toki-pona.txt")
-  (define-runtime-path introduction.diatonic-inversion-chords-in-C.musicxml
-    "../../../../examples/introduction.diatonic-inversion-chords-in-C.musicxml"))
+  (define-runtime-path introduction.diatonic-extension-chords-in-C.musicxml
+    "../../../../examples/introduction.diatonic-extension-chords-in-C.musicxml"))
 
 (module+ test
   (define introduction-wordtokens
@@ -29,7 +29,7 @@
      (file->string introduction.toki-pona.txt)))
   (check-txexprs-equal?
    (wordtokens->musicxml introduction-wordtokens)
-   (read-musicxml-file introduction.diatonic-inversion-chords-in-C.musicxml)))
+   (read-musicxml-file introduction.diatonic-extension-chords-in-C.musicxml)))
 
 ;; ---------------------------------------------------------
 
@@ -53,9 +53,9 @@
 
 (module+ main
   (command-line/file-suffix-bidirectional
-   #:program "diatonic-inversion-musicxml"
+   #:program "diatonic-extension-musicxml"
    #:input-suffix ".toki-pona.txt"
-   #:output-suffix ".diatonic-inversion-chords-in-C.musicxml"
+   #:output-suffix ".diatonic-extension-chords-in-C.musicxml"
    #:force (λ (ip op)
              (write-musicxml-file op
                                   (wordtokens->musicxml
