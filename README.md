@@ -37,6 +37,14 @@ The 10 possible starts of syllables are represented with the 10 possible notes t
 The 10 possible ends of syllables are represented with 10 kinds of chords.
 These are in 2 groups of 5 each:
 one for vowels, and the other for vowels with "n" added.
+
+There are 3 systems for mapping syllables to kinds of chords:
+ - Chromatic
+ - Diatonic Inversion
+ - Diatonic Extension
+
+### Chromatic
+
 These chromatic chords can represent them:
 
  kind | description | end
@@ -55,7 +63,9 @@ These chromatic chords can represent them:
  Maj7 | Major 7     | en
  m7   | minor 7     | in
 
-Or these diatonic chord shapes can represent them:
+### Diatonic Inversion
+
+Or these diatonic inversion chord shapes can represent them:
 
  kind | description | end
 ------|-------------|------
@@ -89,6 +99,37 @@ With interval qualities from scales on the roots:
    7   | Locrian    | 1 b2 b3  4 b5 b6 b7
 
 ![introduction diatonic-chords-in-C](https://user-images.githubusercontent.com/6600123/172023486-9ac35f23-cb1e-495d-a6d2-9ef6f2d75a2e.jpg)
+
+### Diatonic Extension
+
+Or these diatonic extended chords can represent them:
+
+ kind            | name        | end
+-----------------|-------------|------
+ [1,3,5,7,11]    | 7add11      | u
+ [1,5,7]         | 5 7         | o
+ [1,5]           | 5           | a
+ [1,3,5]         | -           | e
+ [1,3,5,7]       | 7           | i
+
+ kind            | name        | end
+-----------------|-------------|------
+ [1,3,5,7,9,11]  | 11          | un
+ [1,5,7,9]       | 5 9         | on
+ [1,5,9]         | 5 add9      | an
+ [1,3,5,9]       | add9        | en
+ [1,3,5,7,9]     | 9           | in
+
+For the vowels:
+ - The open vowel "a" is represented by an open 5th, with no 3rd or 7th.
+ - The mid vowels "e" and "o" are represented each with a 3rd or a 7th, but not both.
+ - The close vowels "u" and "i" are represented with both a 3rd and 7th.
+ - The front vowels "i" and "e" are represented with a 3rd and no 11th.
+ - The back vowels "u" and "o" are represented with a 7th and either no 3rd or an 11th.
+
+For the codas, possible ending nasal:
+ - Vowels alone with no ending nasal are represented with no 9th.
+ - The ending nasal "n" is represented with a 9th.
 
 ## Instalation Instructions
 

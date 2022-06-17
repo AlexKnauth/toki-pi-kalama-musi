@@ -9,24 +9,24 @@
          (only-in (submod music/data/note/note example) C4)
          music/data/chord/main
          music/data/scale/main
-         "../toki-pona.rkt"
-         (only-in "../common/musicxml.rkt" interval->chord-root-name)
-         "chord-scale.rkt"
-         "chord-shape.rkt"
-         "list-over.rkt"
+         "../../toki-pona.rkt"
+         (only-in "../../common/musicxml.rkt" interval->chord-root-name)
+         "../chord-scale.rkt"
+         "../chord-shape.rkt"
+         "../list-over.rkt"
          "chord-notes.rkt")
 (module+ main
   (require racket/file
            rackunit
-           "../common/command-line.rkt"))
+           "../../common/command-line.rkt"))
 (module+ test
   (require racket/file
            racket/runtime-path
            rackunit)
   (define-runtime-path introduction.toki-pona.txt
-    "../../../examples/introduction.toki-pona.txt")
+    "../../../../examples/introduction.toki-pona.txt")
   (define-runtime-path introduction.diatonic-chord-names.txt
-    "../../../examples/introduction.diatonic-chord-names.txt"))
+    "../../../../examples/introduction.diatonic-chord-names.txt"))
 
 ;; ---------------------------------------------------------
 

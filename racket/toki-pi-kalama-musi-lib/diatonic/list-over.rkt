@@ -5,7 +5,8 @@
 
 (require racket/list)
 (module+ test
-  (require rackunit
+  (require racket/function
+           rackunit
            (submod "chord-shape.rkt" example)))
 
 ;; [ListOver X] is a (list-over [Listof X] X)
@@ -110,3 +111,57 @@
 (define (chord-shape->extensions/thirds s)
   (define-values [evens odds] (partition even? s))
   (append evens (map (λ (n) (+ n 7)) odds)))
+
+;; ---------------------------------------------------------
+
+;; chord-shape->prime/thirds : ChordShape -> ChordShape
+(define (chord-shape->prime/thirds s)
+  (list-over-main (chord-shape->over/thirds s)))
+
+;; all-primes/thirds : -> [Listof ChordShape]
+(define (all-primes/thirds)
+  (remove-duplicates
+   (for/list ([s (in-combinations '(3 5 7 9 11 13))])
+     (chord-shape->prime/thirds (cons 1 s)))))
+
+(module+ test
+  (define primes/5no13
+    (sort (filter-not (curry member 13)
+                      (filter (curry member 5)
+                              (map (curry map add1) (all-primes/thirds))))
+          <
+          #:key length))
+
+  (test-case "partition by 9"
+    (define-values [primes/59no13 primes/5no9no13]
+      (partition (curry member 9) primes/5no13))
+    (check-equal? primes/5no9no13
+                  '((1 5)
+                    (1 3 5)
+                    (1 5 7)
+                    (1 3 5 7)
+                    (1 3 5 7 11)))
+    (check-equal? primes/59no13
+                  '((1 5 9)
+                    (1 3 5 9)
+                    (1 5 7 9)
+                    (1 3 5 7 9)
+                    (1 3 5 9 11)
+                    (1 3 5 7 9 11))))
+
+  (test-case "partition by 7"
+    (define-values [primes/57no13 primes/5no7no13]
+      (partition (curry member 7) primes/5no13))
+    (check-equal? primes/5no7no13
+                  '((1 5)
+                    (1 3 5)
+                    (1 5 9)
+                    (1 3 5 9)
+                    (1 3 5 9 11)))
+    (check-equal? primes/57no13
+                  '((1 5 7)
+                    (1 3 5 7)
+                    (1 5 7 9)
+                    (1 3 5 7 9)
+                    (1 3 5 7 11)
+                    (1 3 5 7 9 11)))))

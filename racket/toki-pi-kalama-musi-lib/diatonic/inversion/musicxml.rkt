@@ -4,24 +4,24 @@
 
 (require racket/list
          music/data/time/main
-         "../toki-pona.rkt"
-         "../common/musicxml.rkt"
+         "../../toki-pona.rkt"
+         "../../common/musicxml.rkt"
          "chord-notes.rkt")
 (module+ main
   (require racket/file
            txexpr
            music/notation/musicxml/musicxml-file
            music/notation/musicxml/read/musicxml-file
-           "../common/command-line.rkt"))
+           "../../common/command-line.rkt"))
 (module+ test
   (require racket/file
            racket/runtime-path
            txexpr
            music/notation/musicxml/read/musicxml-file)
   (define-runtime-path introduction.toki-pona.txt
-    "../../../examples/introduction.toki-pona.txt")
+    "../../../../examples/introduction.toki-pona.txt")
   (define-runtime-path introduction.diatonic-chords-in-C.musicxml
-    "../../../examples/introduction.diatonic-chords-in-C.musicxml"))
+    "../../../../examples/introduction.diatonic-chords-in-C.musicxml"))
 
 (module+ test
   (define introduction-wordtokens

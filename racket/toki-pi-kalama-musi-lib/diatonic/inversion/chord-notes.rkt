@@ -10,12 +10,12 @@
          (only-in music/data/note/main note+)
          (only-in (submod music/data/note/note example) C4)
          music/data/chord/main
-         "../toki-pona.rkt"
-         "chord-shape.rkt"
-         (submod "chord-shape.rkt" example)
-         "chord-scale.rkt"
-         (only-in "../chromatic/chord-names.rkt" syllable-start->chord-name-root)
-         (only-in "../common/musicxml.rkt" chord-root-name->interval))
+         "../../toki-pona.rkt"
+         "../chord-shape.rkt"
+         (submod "../chord-shape.rkt" example)
+         "../chord-scale.rkt"
+         (only-in "../../chromatic/chord-names.rkt" syllable-start->chord-name-root)
+         (only-in "../../common/musicxml.rkt" chord-root-name->interval))
 
 #|
  kind | description | end
