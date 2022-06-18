@@ -11,13 +11,16 @@ chromatic-musicxml:
 
 diatonic: diatonic-inversion diatonic-extension
 
-diatonic-inversion: diatonic-inversion-musicxml diatonic-inversion-chord-names
+diatonic-inversion: diatonic-inversion-musicxml diatonic-inversion-chord-names diatonic-inversion-figured-names
 
 diatonic-inversion-musicxml:
 	racket racket/toki-pi-kalama-musi-lib/diatonic/inversion/musicxml.rkt examples/
 
 diatonic-inversion-chord-names:
 	racket racket/toki-pi-kalama-musi-lib/diatonic/inversion/chord-names.rkt examples/
+
+diatonic-inversion-figured-names:
+	racket racket/toki-pi-kalama-musi-lib/diatonic/inversion/figured-names.rkt examples/
 
 diatonic-extension: diatonic-extension-musicxml diatonic-extension-chord-names
 
