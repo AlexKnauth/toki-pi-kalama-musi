@@ -32,7 +32,6 @@
 
 ;; toki-pona-string->chord-names : String -> String
 (module+ test
-  #;
   (check-equal? (toki-pona-string->chord-names
                  (file->string introduction.toki-pona.txt))
                 (string-trim

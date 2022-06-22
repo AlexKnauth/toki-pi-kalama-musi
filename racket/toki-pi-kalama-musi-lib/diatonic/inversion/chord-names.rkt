@@ -5,8 +5,10 @@
 (require (only-in racket/list second)
          racket/match
          racket/string
+         fancy-app
          music/data/note/main
          (only-in (submod music/data/note/note example) C4)
+         (only-in music/data/note/note-class note-class->string)
          music/data/chord/main
          music/data/scale/main
          "../../toki-pona.rkt"
@@ -38,28 +40,31 @@
                  (file->string introduction.diatonic-inversion-chord-names.txt)))
   )
 
-(define (toki-pona-string->chord-names s)
-  (wordtokens->chord-names (toki-pona-string->wordtokens s)))
+(define (toki-pona-string->chord-names s #:key [key #f])
+  (wordtokens->chord-names (toki-pona-string->wordtokens s) #:key key))
 
-;; wordtokens->chord-names : WordTokens -> String
-(define/match (wordtokens->chord-names wts)
-  [['()] ""]
-  [[(list (word w))] (word->chord-names w)]
-  [[(list (punctuation s))] s]
-  [[(cons (word w) (and rst (cons (punctuation _) _)))]
-   (string-append (word->chord-names w) " " (wordtokens->chord-names rst))]
-  [[(cons (word w) rst)]
-   (string-append (word->chord-names w) " / " (wordtokens->chord-names rst))]
-  [[(cons (punctuation s) rst)]
-   (string-append s " " (wordtokens->chord-names rst))])
+;; wordtokens->chord-names : WordTokens #:key (Maybe Note) -> String
+(define (wordtokens->chord-names wts #:key [key #f])
+  (match wts
+    ['() ""]
+    [(list (word w)) (word->chord-names w #:key key)]
+    [(list (punctuation s)) s]
+    [(cons (word w) (and rst (cons (punctuation _) _)))
+     (string-append (word->chord-names w #:key key) " "
+                    (wordtokens->chord-names rst #:key key))]
+    [(cons (word w) rst)
+     (string-append (word->chord-names w #:key key) " / "
+                    (wordtokens->chord-names rst #:key key))]
+    [(cons (punctuation s) rst)
+     (string-append s " " (wordtokens->chord-names rst #:key key))]))
 
-;; word->chord-names : Word -> String
-(define (word->chord-names w)
-  (string-join (map syllable->chord-name w) " "))
+;; word->chord-names : Word #:key (Maybe Note) -> String
+(define (word->chord-names w #:key [key #f])
+  (string-join (map (syllable->chord-name _ #:key key) w) " "))
 
-;; syllable->chord-name : Syllable -> String
-(define/match (syllable->chord-name s)
-  [[(syllable up? start end)]
+;; syllable->chord-name : Syllable #:key (Maybe Note) -> String
+(define/match (syllable->chord-name s #:key [key #f])
+  [[(syllable up? start end) key]
    (define bass-ivl (syllable-start->interval start))
    (define bass-scale (interval->scale-kind bass-ivl))
    (define bass-shape (syllable-end->chord-shape end))
@@ -70,21 +75,39 @@
    (define root-ivl (ivl%octave (ivl+ bass-ivl root-ivl/bass)))
    (define root-scale (scale-kind-mode-of bass-scale root-deg/bass))
    (define root-kind (chord-shape->kind root-shape root-scale))
+   (define kind-string (chord-kind->chord-name-kind root-kind))
    (string-append
     (if up? ">" "")
-    (interval->chord-root-name root-ivl)
-    (chord-kind->chord-name-kind root-kind)
+    (interval->chord-root-name/key root-ivl #:key key)
+    (if (and key
+             (or (string-prefix? kind-string "b")
+                 (string-prefix? kind-string "#")))
+        "-"
+        "")
+    kind-string
     ;; TODO: decide between:
     ;;  - bass-ivl relative to key
     ;;  - bass-ivl/root relative to root
     (if (zero? bass/root)
         ""
-        (string-append "/" (interval->major-degree-name bass-ivl))))])
+        (string-append "/" (interval->bass-name bass-ivl #:key key))))])
+
+;; interval->chord-root-name/key : Interval #:key (Maybe Note) -> String
+(define (interval->chord-root-name/key i #:key [key #f])
+  (cond
+    [key (note-class->string (note-class (note+ key i)))]
+    [else (interval->chord-root-name i)]))
 
 ;; chord-kind->chord-name-kind : ChordKind -> String
 (define (chord-kind->chord-name-kind ck)
   (second (or (assoc ck chord-kind/name-table)
               (error 'chord-kind->chord-name-kind "unknown chord kind: ~v" ck))))
+
+;; interval->bass-name : Interval #:key (Maybe Note) -> String
+(define (interval->bass-name i #:key [key #f])
+  (cond
+    [key (note-class->string (note-class (note+ key i)))]
+    [else (interval->major-degree-name i)]))
 
 ;; interval->major-degree-name : Interval -> String
 (define (interval->major-degree-name i)

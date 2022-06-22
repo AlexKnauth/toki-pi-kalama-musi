@@ -18,6 +18,7 @@ diatonic-inversion-musicxml:
 
 diatonic-inversion-chord-names:
 	racket racket/toki-pi-kalama-musi-lib/diatonic/inversion/chord-names.rkt examples/
+	racket racket/toki-pi-kalama-musi-lib/diatonic/inversion/chord-names-in-C.rkt examples/
 
 diatonic-inversion-figured-names:
 	racket racket/toki-pi-kalama-musi-lib/diatonic/inversion/figured-names.rkt examples/
