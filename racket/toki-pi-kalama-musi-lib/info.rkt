@@ -5,6 +5,7 @@
 (define deps
   '("base"
     "collections-lib"
+    "fancy-app"
     "functional-lib"
     "megaparsack-lib"
     "alexknauth-music"
