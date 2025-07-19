@@ -38,30 +38,9 @@ The 10 possible ends of syllables are represented with 10 kinds of chords.
 These are in 2 groups of 5 each:
 one for vowels, and the other for vowels with "n" added.
 
-There are 3 systems for mapping syllables to kinds of chords:
- - Chromatic
+There are 2 systems for mapping syllables to kinds of chords:
  - Diatonic Inversion
  - Diatonic Extension
-
-### Chromatic
-
-These chromatic chords can represent them:
-
- kind | description | end
-------|-------------|------
- sus4 | suspended 4 | u
- sus2 | suspended 2 | o
- 5    | Open Power  | a
- --   | Major       | e
- 6    | Major add 6 | i
-
- kind | description | end
-------|-------------|-----
- m6   | minor add 6 | un
- 7    | Dominant 7  | on
- m    | minor       | an
- Maj7 | Major 7     | en
- m7   | minor 7     | in
 
 ### Diatonic Inversion
 

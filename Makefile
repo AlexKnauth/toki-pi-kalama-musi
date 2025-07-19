@@ -1,13 +1,5 @@
 
-all: chromatic diatonic
-
-chromatic: chromatic-chord-names chromatic-musicxml
-
-chromatic-chord-names:
-	racket racket/toki-pi-kalama-musi-lib/chromatic/chord-names.rkt examples/
-
-chromatic-musicxml:
-	racket racket/toki-pi-kalama-musi-lib/chromatic/musicxml.rkt examples/
+all: diatonic
 
 diatonic: diatonic-inversion diatonic-extension
 

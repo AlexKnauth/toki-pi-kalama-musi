@@ -14,7 +14,7 @@
          "../chord-shape.rkt"
          (submod "../chord-shape.rkt" example)
          "../chord-scale.rkt"
-         (only-in "../../chromatic/chord-names.rkt" syllable-start->chord-name-root)
+         (only-in "../../common/chord-names.rkt" syllable-start->chord-name-root)
          (only-in "../../common/musicxml.rkt" chord-root-name->interval))
 
 #|
