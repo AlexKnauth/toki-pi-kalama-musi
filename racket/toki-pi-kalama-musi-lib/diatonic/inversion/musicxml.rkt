@@ -60,7 +60,8 @@
              (write-musicxml-file op
                                   (wordtokens->musicxml
                                    (toki-pona-string->wordtokens (file->string ip)))
-                                  #:exists 'replace))
+                                  #:exists 'replace
+                                  #:indentation 'peek))
    #:check (λ (ip op)
              (check-txexprs-equal? (wordtokens->musicxml
                                     (toki-pona-string->wordtokens (file->string ip)))
@@ -69,4 +70,5 @@
              (write-musicxml-file op
                                   (wordtokens->musicxml
                                    (toki-pona-string->wordtokens (file->string ip)))
-                                  #:exists 'error))))
+                                  #:exists 'error
+                                  #:indentation 'peek))))
