@@ -1,7 +1,7 @@
 
 all: diatonic
 
-diatonic: diatonic-inversion diatonic-extension
+diatonic: diatonic-inversion
 
 diatonic-inversion: diatonic-inversion-musicxml diatonic-inversion-chord-names diatonic-inversion-figured-names
 
@@ -14,11 +14,3 @@ diatonic-inversion-chord-names:
 
 diatonic-inversion-figured-names:
 	racket racket/toki-pi-kalama-musi-lib/diatonic/inversion/figured-names.rkt examples/
-
-diatonic-extension: diatonic-extension-musicxml diatonic-extension-chord-names
-
-diatonic-extension-musicxml:
-	racket racket/toki-pi-kalama-musi-lib/diatonic/extension/musicxml.rkt examples/
-
-diatonic-extension-chord-names:
-	racket racket/toki-pi-kalama-musi-lib/diatonic/extension/chord-names.rkt examples/
