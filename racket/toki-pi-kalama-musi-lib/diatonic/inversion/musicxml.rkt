@@ -53,7 +53,8 @@
   (define nm1 (sub1 n))
   (for/list ([s (in-list w)]
              [i (in-range n)])
-    (syllable->lasting-chord s (zero? i) (= i nm1) (if (= i nm1) e ""))))
+    (define lst? (= i nm1))
+    (syllable->lasting-chord s (zero? i) lst? (if lst? e ""))))
 
 ;; syllable->lasting-chord : Syllable Bool Bool String -> [Lasting LyricChord]
 (define (syllable->lasting-chord s fst? lst? e)
