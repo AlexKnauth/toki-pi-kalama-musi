@@ -140,9 +140,21 @@
     </measure>
     <measure number="2">
       <note>
-        <rest></rest>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
         <duration>1</duration>
+        <tie type="stop"></tie>
         <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text>a</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -225,9 +237,8 @@
           <text>a</text>
         </lyric>
       </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
+    </measure>
+    <measure number="3">
       <note>
         <pitch>
           <step>C</step>
@@ -244,18 +255,6 @@
           <syllabic>begin</syllabic>
           <text>a</text>
         </lyric>
-      </note>
-      <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
-      </note>
-    </measure>
-    <measure number="3">
-      <note>
-        <rest></rest>
-        <duration>1</duration>
-        <voice>1</voice>
       </note>
       <note>
         <pitch>
@@ -360,9 +359,8 @@
           <tied type="start"></tied>
         </notations>
       </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
+    </measure>
+    <measure number="4">
       <note>
         <pitch>
           <step>C</step>
@@ -377,20 +375,23 @@
         </notations>
         <lyric number="1">
           <syllabic>begin</syllabic>
-          <text>a</text>
+          <text>an</text>
         </lyric>
       </note>
       <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
-      </note>
-    </measure>
-    <measure number="4">
-      <note>
-        <rest></rest>
+        <chord></chord>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
         <duration>1</duration>
+        <tie type="stop"></tie>
         <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
       </note>
       <note>
         <pitch>
@@ -479,9 +480,8 @@
           <text>a</text>
         </lyric>
       </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
+    </measure>
+    <measure number="5">
       <note>
         <pitch>
           <step>C</step>
@@ -496,35 +496,8 @@
         </notations>
         <lyric number="1">
           <syllabic>begin</syllabic>
-          <text>an</text>
+          <text>a</text>
         </lyric>
-      </note>
-      <note>
-        <chord></chord>
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-      </note>
-      <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
-      </note>
-    </measure>
-    <measure number="5">
-      <note>
-        <rest></rest>
-        <duration>1</duration>
-        <voice>1</voice>
       </note>
       <note>
         <pitch>
@@ -638,9 +611,8 @@
           <tied type="start"></tied>
         </notations>
       </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
+    </measure>
+    <measure number="6">
       <note>
         <pitch>
           <step>C</step>
@@ -654,20 +626,27 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>a</text>
+          <syllabic>single</syllabic>
+          <text>e</text>
         </lyric>
       </note>
       <note>
-        <rest></rest>
-        <duration>7</duration>
+        <chord></chord>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <tie type="stop"></tie>
         <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
       </note>
-    </measure>
-    <measure number="6">
       <note>
         <rest></rest>
-        <duration>2</duration>
+        <duration>1</duration>
         <voice>1</voice>
       </note>
       <note>
@@ -765,45 +744,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-      </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
-      <note>
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>e</text>
-        </lyric>
-      </note>
-      <note>
-        <chord></chord>
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-      </note>
-      <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
       </note>
     </measure>
     <measure number="7">
@@ -1199,9 +1139,21 @@
     </measure>
     <measure number="11">
       <note>
-        <rest></rest>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
         <duration>1</duration>
+        <tie type="stop"></tie>
         <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text>ka</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1284,9 +1236,8 @@
           <text>ka</text>
         </lyric>
       </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
+    </measure>
+    <measure number="12">
       <note>
         <pitch>
           <step>A</step>
@@ -1303,18 +1254,6 @@
           <syllabic>begin</syllabic>
           <text>ka</text>
         </lyric>
-      </note>
-      <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
-      </note>
-    </measure>
-    <measure number="12">
-      <note>
-        <rest></rest>
-        <duration>1</duration>
-        <voice>1</voice>
       </note>
       <note>
         <pitch>
@@ -1420,9 +1359,8 @@
           <tied type="start"></tied>
         </notations>
       </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
+    </measure>
+    <measure number="13">
       <note>
         <pitch>
           <step>A</step>
@@ -1436,20 +1374,41 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>ka</text>
+          <syllabic>single</syllabic>
+          <text>ken</text>
         </lyric>
       </note>
       <note>
-        <rest></rest>
-        <duration>7</duration>
+        <chord></chord>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1</duration>
+        <tie type="stop"></tie>
         <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
       </note>
-    </measure>
-    <measure number="13">
+      <note>
+        <chord></chord>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1</duration>
+        <tie type="stop"></tie>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
+      </note>
       <note>
         <rest></rest>
-        <duration>2</duration>
+        <duration>1</duration>
         <voice>1</voice>
       </note>
       <note>
@@ -1559,59 +1518,6 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>quarter</type>
-      </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
-      <note>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>ken</text>
-        </lyric>
-      </note>
-      <note>
-        <chord></chord>
-        <pitch>
-          <step>E</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-      </note>
-      <note>
-        <chord></chord>
-        <pitch>
-          <step>G</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-      </note>
-      <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
       </note>
     </measure>
     <measure number="14">
@@ -1847,9 +1753,35 @@
     </measure>
     <measure number="16">
       <note>
-        <rest></rest>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
         <duration>1</duration>
+        <tie type="stop"></tie>
         <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text>ku</text>
+        </lyric>
+      </note>
+      <note>
+        <chord></chord>
+        <pitch>
+          <step>F</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1</duration>
+        <tie type="stop"></tie>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
       </note>
       <note>
         <pitch>
@@ -1986,9 +1918,8 @@
           <tied type="start"></tied>
         </notations>
       </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
+    </measure>
+    <measure number="17">
       <note>
         <pitch>
           <step>A</step>
@@ -2019,18 +1950,6 @@
         <notations>
           <tied type="stop"></tied>
         </notations>
-      </note>
-      <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
-      </note>
-    </measure>
-    <measure number="17">
-      <note>
-        <rest></rest>
-        <duration>1</duration>
-        <voice>1</voice>
       </note>
       <note>
         <pitch>
@@ -2092,45 +2011,6 @@
           <syllabic>begin</syllabic>
           <text>la</text>
         </lyric>
-      </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
-      <note>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-        <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>ku</text>
-        </lyric>
-      </note>
-      <note>
-        <chord></chord>
-        <pitch>
-          <step>F</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-      </note>
-      <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
       </note>
     </measure>
     <measure number="18">
@@ -2652,9 +2532,36 @@
     </measure>
     <measure number="23">
       <note>
-        <rest></rest>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
         <duration>1</duration>
+        <tie type="stop"></tie>
         <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text>lu</text>
+        </lyric>
+      </note>
+      <note>
+        <chord></chord>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1</duration>
+        <tie type="stop"></tie>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
       </note>
       <note>
         <pitch>
@@ -2768,9 +2675,8 @@
           <tied type="start"></tied>
         </notations>
       </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
+    </measure>
+    <measure number="24">
       <note>
         <pitch>
           <step>B</step>
@@ -2802,18 +2708,6 @@
         <notations>
           <tied type="stop"></tied>
         </notations>
-      </note>
-      <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
-      </note>
-    </measure>
-    <measure number="24">
-      <note>
-        <rest></rest>
-        <duration>1</duration>
-        <voice>1</voice>
       </note>
       <note>
         <pitch>
@@ -2863,46 +2757,6 @@
           <syllabic>begin</syllabic>
           <text>ma</text>
         </lyric>
-      </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
-      <note>
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-        <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>lu</text>
-        </lyric>
-      </note>
-      <note>
-        <chord></chord>
-        <pitch>
-          <step>G</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-      </note>
-      <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
       </note>
     </measure>
     <measure number="25">
@@ -3425,9 +3279,35 @@
     </measure>
     <measure number="30">
       <note>
-        <rest></rest>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
         <duration>1</duration>
+        <tie type="stop"></tie>
         <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text>mu</text>
+        </lyric>
+      </note>
+      <note>
+        <chord></chord>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1</duration>
+        <tie type="stop"></tie>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
       </note>
       <note>
         <pitch>
@@ -3542,12 +3422,11 @@
           <tied type="start"></tied>
         </notations>
       </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
+    </measure>
+    <measure number="31">
       <note>
         <pitch>
-          <step>F</step>
+          <step>G</step>
           <octave>4</octave>
         </pitch>
         <duration>1</duration>
@@ -3559,13 +3438,13 @@
         </notations>
         <lyric number="1">
           <syllabic>begin</syllabic>
-          <text>mu</text>
+          <text>nan</text>
         </lyric>
       </note>
       <note>
         <chord></chord>
         <pitch>
-          <step>D</step>
+          <step>F</step>
           <octave>5</octave>
         </pitch>
         <duration>1</duration>
@@ -3575,18 +3454,6 @@
         <notations>
           <tied type="stop"></tied>
         </notations>
-      </note>
-      <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
-      </note>
-    </measure>
-    <measure number="31">
-      <note>
-        <rest></rest>
-        <duration>1</duration>
-        <voice>1</voice>
       </note>
       <note>
         <pitch>
@@ -3654,9 +3521,8 @@
           <text>na</text>
         </lyric>
       </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
+    </measure>
+    <measure number="32">
       <note>
         <pitch>
           <step>G</step>
@@ -3671,34 +3537,8 @@
         </notations>
         <lyric number="1">
           <syllabic>begin</syllabic>
-          <text>nan</text>
+          <text>na</text>
         </lyric>
-      </note>
-      <note>
-        <chord></chord>
-        <pitch>
-          <step>F</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-      </note>
-      <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
-      </note>
-    </measure>
-    <measure number="32">
-      <note>
-        <rest></rest>
-        <duration>1</duration>
-        <voice>1</voice>
       </note>
       <note>
         <pitch>
@@ -3811,9 +3651,8 @@
           <tied type="start"></tied>
         </notations>
       </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
+    </measure>
+    <measure number="33">
       <note>
         <pitch>
           <step>G</step>
@@ -3827,20 +3666,28 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>na</text>
+          <syllabic>single</syllabic>
+          <text>ni</text>
         </lyric>
       </note>
       <note>
-        <rest></rest>
-        <duration>7</duration>
+        <chord></chord>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <tie type="stop"></tie>
         <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
       </note>
-    </measure>
-    <measure number="33">
       <note>
         <rest></rest>
-        <duration>2</duration>
+        <duration>1</duration>
         <voice>1</voice>
       </note>
       <note>
@@ -3917,46 +3764,6 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>quarter</type>
-      </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>ni</text>
-        </lyric>
-      </note>
-      <note>
-        <chord></chord>
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-      </note>
-      <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
       </note>
     </measure>
     <measure number="34">
@@ -4676,9 +4483,35 @@
     </measure>
     <measure number="41">
       <note>
-        <rest></rest>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
         <duration>1</duration>
+        <tie type="stop"></tie>
         <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text>pi</text>
+        </lyric>
+      </note>
+      <note>
+        <chord></chord>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <tie type="stop"></tie>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
       </note>
       <note>
         <pitch>
@@ -4780,9 +4613,8 @@
           <tied type="start"></tied>
         </notations>
       </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
+    </measure>
+    <measure number="42">
       <note>
         <pitch>
           <step>E</step>
@@ -4797,13 +4629,13 @@
         </notations>
         <lyric number="1">
           <syllabic>begin</syllabic>
-          <text>pi</text>
+          <text>po</text>
         </lyric>
       </note>
       <note>
         <chord></chord>
         <pitch>
-          <step>G</step>
+          <step>A</step>
           <octave>4</octave>
         </pitch>
         <duration>1</duration>
@@ -4813,18 +4645,6 @@
         <notations>
           <tied type="stop"></tied>
         </notations>
-      </note>
-      <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
-      </note>
-    </measure>
-    <measure number="42">
-      <note>
-        <rest></rest>
-        <duration>1</duration>
-        <voice>1</voice>
       </note>
       <note>
         <pitch>
@@ -4926,9 +4746,8 @@
           <tied type="start"></tied>
         </notations>
       </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
+    </measure>
+    <measure number="43">
       <note>
         <pitch>
           <step>E</step>
@@ -4942,15 +4761,15 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>po</text>
+          <syllabic>single</syllabic>
+          <text>pu</text>
         </lyric>
       </note>
       <note>
         <chord></chord>
         <pitch>
-          <step>A</step>
-          <octave>4</octave>
+          <step>C</step>
+          <octave>5</octave>
         </pitch>
         <duration>1</duration>
         <tie type="stop"></tie>
@@ -4962,14 +4781,7 @@
       </note>
       <note>
         <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
-      </note>
-    </measure>
-    <measure number="43">
-      <note>
-        <rest></rest>
-        <duration>2</duration>
+        <duration>1</duration>
         <voice>1</voice>
       </note>
       <note>
@@ -5025,45 +4837,6 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>quarter</type>
-      </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>pu</text>
-        </lyric>
-      </note>
-      <note>
-        <chord></chord>
-        <pitch>
-          <step>C</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-      </note>
-      <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
       </note>
     </measure>
     <measure number="44">
@@ -6384,9 +6157,35 @@
     </measure>
     <measure number="56">
       <note>
-        <rest></rest>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
         <duration>1</duration>
+        <tie type="stop"></tie>
         <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text>u</text>
+        </lyric>
+      </note>
+      <note>
+        <chord></chord>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <tie type="stop"></tie>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
       </note>
       <note>
         <pitch>
@@ -6479,12 +6278,12 @@
           <text>wa</text>
         </lyric>
       </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
+    </measure>
+    <measure number="57">
       <note>
         <pitch>
-          <step>C</step>
+          <step>E</step>
+          <alter>-1</alter>
           <octave>4</octave>
         </pitch>
         <duration>1</duration>
@@ -6496,34 +6295,8 @@
         </notations>
         <lyric number="1">
           <syllabic>begin</syllabic>
-          <text>u</text>
+          <text>wa</text>
         </lyric>
-      </note>
-      <note>
-        <chord></chord>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-      </note>
-      <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
-      </note>
-    </measure>
-    <measure number="57">
-      <note>
-        <rest></rest>
-        <duration>1</duration>
-        <voice>1</voice>
       </note>
       <note>
         <pitch>
@@ -6596,32 +6369,6 @@
           <syllabic>begin</syllabic>
           <text>wa</text>
         </lyric>
-      </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
-      <note>
-        <pitch>
-          <step>E</step>
-          <alter>-1</alter>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-        <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>wa</text>
-        </lyric>
-      </note>
-      <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
       </note>
     </measure>
     <measure number="58">

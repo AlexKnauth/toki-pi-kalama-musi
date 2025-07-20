@@ -182,8 +182,39 @@
     </measure>
     <measure number="3">
       <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <tie type="stop"></tie>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>mi</text>
+        </lyric>
+      </note>
+      <note>
+        <chord></chord>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <tie type="stop"></tie>
+        <voice>1</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="stop"></tied>
+        </notations>
+      </note>
+      <note>
         <rest></rest>
-        <duration>2</duration>
+        <duration>1</duration>
         <voice>1</voice>
       </note>
       <note>
@@ -271,45 +302,6 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>quarter</type>
-      </note>
-      <backup>
-        <duration>8</duration>
-      </backup>
-      <note>
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>mi</text>
-        </lyric>
-      </note>
-      <note>
-        <chord></chord>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <tie type="stop"></tie>
-        <voice>1</voice>
-        <type>eighth</type>
-        <notations>
-          <tied type="stop"></tied>
-        </notations>
-      </note>
-      <note>
-        <rest></rest>
-        <duration>7</duration>
-        <voice>1</voice>
       </note>
     </measure>
     <measure number="4">
