@@ -30,6 +30,7 @@
   (define shell-figured-65 '(0 4 5))
   (define shell-figured-43 '(0 2 3))
   (define unison '(0))
+  (define second '(0 1))
   (define third '(0 2))
   (define fourth '(0 3))
   (define fifth '(0 4))

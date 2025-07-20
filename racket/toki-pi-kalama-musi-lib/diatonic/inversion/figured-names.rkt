@@ -93,6 +93,8 @@
         (list dominant-7 "7")
         (list minor-7-♭5 "m7b5")
         (list (list unison) "1")
+        (list (list unison m2nd) "1b2")
+        (list (list unison M2nd) "12")
         (list (list unison M3rd) "")
         (list (list unison m3rd) "m")
         (list (list unison P4th) "4")

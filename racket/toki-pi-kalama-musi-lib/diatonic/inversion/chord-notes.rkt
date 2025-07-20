@@ -5,7 +5,7 @@
          syllable-end->chord-kind/ivl
          syllable-end->chord-shape)
 
-(require (only-in racket/list second)
+(require (only-in racket/list [second list-second])
          racket/match
          (only-in music/data/note/main note+)
          (only-in (submod music/data/note/note example) C4)
@@ -33,6 +33,10 @@
  17   | Seventh     | an
  157  | Power 7     | en
  137  | Shell 7     | in
+
+ kind | description | end
+------|-------------|-----
+ 12   | Second      | 
 |#
 (define syllable-end/chord-shape-table
   (list (list "u" sixth)
@@ -44,7 +48,8 @@
         (list "on" shell-figured-43)
         (list "an" seventh)
         (list "en" power-7)
-        (list "in" shell-7)))
+        (list "in" shell-7)
+        (list "" second)))
 
 (define/match (syllable->chord s)
   [[(syllable up? start end)]
@@ -63,5 +68,5 @@
    (interval->scale-kind ivl)))
 
 (define (syllable-end->chord-shape s)
-  (second (or (assoc s syllable-end/chord-shape-table)
-              (error 'syllable-end->chord-shape "unknown syllable end: ~v" s))))
+  (list-second (or (assoc s syllable-end/chord-shape-table)
+                   (error 'syllable-end->chord-shape "unknown syllable end: ~v" s))))
