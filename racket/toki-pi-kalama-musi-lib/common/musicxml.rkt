@@ -53,7 +53,7 @@
 (define (punctuation->lasting-rests s)
   (define n
     (match s
-      ["-" 1]
+      ["-" 0]
       ["," 2]
       ["." 4]
       [x #:when (string-contains? x "?") 4]
@@ -79,7 +79,7 @@
       TREBLE-CLEF
       (key 0)
       (time-sig/nd 4 duration-quarter)
-      (tempo 170 duration-quarter)
+      (tempo 240 duration-quarter)
       lcs)))))
 
 ;; wordtokens-map-words->lasting-chords :

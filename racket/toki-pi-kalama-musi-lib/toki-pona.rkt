@@ -172,7 +172,7 @@
 
 ;; punctuation-string/p : [Parser Char String]
 (define punctuation-string/p
-  (map list->string (many+/p (char-in/p ".!?,;"))))
+  (map list->string (many+/p (char-in/p ".!?,;-"))))
 
 ;; syllable/p : [Parser Char Syllable]
 (module+ test
@@ -242,7 +242,26 @@
     (word (list (syllable #f "j" "an")))
     (word (list (syllable #t "" "a") (syllable #f "l" "e") (syllable #f "k" "u")))
     (punctuation ".")))
-   )
+  (check-parse-string
+   wordtokens/p
+   "li, e, la, pi-o-\nanu en, seme ijo"
+   (list
+    (word (list (syllable #f "l" "i")))
+    (punctuation ",")
+    (word (list (syllable #f "" "e")))
+    (punctuation ",")
+    (word (list (syllable #f "l" "a")))
+    (punctuation ",")
+    (word (list (syllable #f "p" "i")))
+    (punctuation "-")
+    (word (list (syllable #f "" "o")))
+    (punctuation "-")
+    (word (list (syllable #f "" "a") (syllable #f "n" "u")))
+    (word (list (syllable #f "" "en")))
+    (punctuation ",")
+    (word (list (syllable #f "s" "e") (syllable #f "m" "e")))
+    (word (list (syllable #f "" "i") (syllable #f "j" "o")))))
+  )
 
 (define wordtokens/p (many/p wordtoken/p #:sep whitespace/p))
 

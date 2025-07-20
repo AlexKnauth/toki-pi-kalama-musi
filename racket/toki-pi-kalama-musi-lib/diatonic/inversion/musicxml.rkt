@@ -54,15 +54,21 @@
   (for/list ([s (in-list w)]
              [i (in-range n)])
     (define lst? (= i nm1))
-    (syllable->lasting-chord s (zero? i) lst? (if lst? e ""))))
+    (syllable->lasting-chord s n (zero? i) lst? (if lst? e ""))))
 
-;; syllable->lasting-chord : Syllable Bool Bool String -> [Lasting LyricChord]
-(define (syllable->lasting-chord s fst? lst? e)
-  (lasting duration-eighth
+;; syllable->lasting-chord : Syllable Nat Bool Bool String -> [Lasting LyricChord]
+(define (syllable->lasting-chord s n fst? lst? e)
+  (lasting (syllable-duration n fst? lst?)
            (cons (lyric "1"
                         (syllabic fst? lst?)
                         (string-append (syllable->string s) e))
                  (syllable->chord s))))
+
+;; syllable-duration : Nat Bool Bool -> Duration
+(define (syllable-duration n fst? lst?)
+  (match* [n fst? lst?]
+    [[(or 1 2) #true _] duration-quarter]
+    [[_ _ _] duration-eighth]))
 
 ;; syllabic : Bool Bool -> Syllabic
 (define (syllabic fst? lst?)
