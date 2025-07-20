@@ -46,6 +46,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>a</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -60,6 +64,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>a</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -69,6 +77,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ke</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -88,6 +100,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>si</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -112,6 +128,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>a</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -122,6 +142,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>la</text>
+        </lyric>
       </note>
     </measure>
     <measure number="2">
@@ -138,6 +162,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>a</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -148,6 +176,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>la</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -157,6 +189,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>sa</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -171,6 +207,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>a</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -181,6 +221,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>le</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -207,6 +251,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>a</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -217,6 +265,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>li</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -241,6 +293,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>an</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -261,6 +317,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pa</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -275,6 +335,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>an</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -295,6 +359,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>te</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -321,6 +389,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>a</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -330,6 +402,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>nu</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -354,6 +430,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>a</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -364,6 +444,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>wen</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -399,6 +483,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>e</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -425,6 +513,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>en</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -460,6 +552,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>e</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -479,6 +575,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>sun</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -514,6 +614,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>i</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -534,6 +638,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>jo</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -560,6 +668,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>i</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -579,6 +691,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ke</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -603,6 +719,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>i</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -623,6 +743,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>lo</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -647,6 +771,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>in</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -679,6 +807,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>sa</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -694,6 +826,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ja</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -703,6 +839,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ki</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -728,6 +868,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>jan</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -753,6 +897,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>je</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -776,6 +924,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>lo</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -801,6 +953,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>jo</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -825,6 +981,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ka</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -835,6 +995,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>la</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -849,6 +1013,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ka</text>
+        </lyric>
       </note>
     </measure>
     <measure number="9">
@@ -861,6 +1029,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>la</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -870,6 +1042,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -884,6 +1060,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ka</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -893,6 +1073,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -907,6 +1091,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ka</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -916,6 +1104,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>si</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -942,6 +1134,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ken</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -976,6 +1172,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ke</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -995,6 +1195,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pe</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1015,6 +1219,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ken</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1049,6 +1257,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ki</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1071,6 +1283,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>li</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1095,6 +1311,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>kin</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1129,6 +1349,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ki</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1149,6 +1373,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>wen</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1184,6 +1412,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ko</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1210,6 +1442,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>kon</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1244,6 +1480,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ku</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1264,6 +1504,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>le</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1288,6 +1532,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ku</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1308,6 +1556,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>lu</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1329,6 +1581,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pu</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1353,6 +1609,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ku</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1372,6 +1632,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>te</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1397,6 +1661,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>la</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -1412,6 +1680,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>la</text>
+        </lyric>
       </note>
     </measure>
     <measure number="14">
@@ -1423,6 +1695,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pe</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1449,6 +1725,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>la</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1458,6 +1738,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>so</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1483,6 +1767,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>la</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1493,6 +1781,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>wa</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -1510,6 +1802,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>len</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1545,6 +1841,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>le</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1564,6 +1864,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>te</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1589,6 +1893,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>li</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1614,6 +1922,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>li</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1636,6 +1948,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>li</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1661,6 +1977,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>lin</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1691,6 +2011,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ja</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -1706,6 +2030,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>li</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1725,6 +2053,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pu</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1752,6 +2084,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>lo</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1772,6 +2108,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>je</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1798,6 +2138,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>lon</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1833,6 +2177,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>lu</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1852,6 +2200,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ka</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -1869,6 +2221,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>lu</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1888,6 +2244,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>kin</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1923,6 +2283,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>lu</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -1942,6 +2306,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pa</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -1956,6 +2324,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -1972,6 +2344,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -1981,6 +2357,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -1995,6 +2375,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -2004,6 +2388,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ni</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2029,6 +2417,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>me</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2049,6 +2441,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>li</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2075,6 +2471,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>mi</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2099,6 +2499,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>mi</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2119,6 +2523,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>je</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2144,6 +2552,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>mo</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2164,6 +2576,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ku</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2190,6 +2606,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>mo</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2211,6 +2631,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>li</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2235,6 +2659,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>mon</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2265,6 +2693,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>si</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2289,6 +2721,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>mu</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2315,6 +2751,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>mun</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2349,6 +2789,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>mu</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2368,6 +2812,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>si</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2392,6 +2840,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>mu</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2411,6 +2863,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>te</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2437,6 +2893,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>na</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -2446,6 +2906,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -2455,6 +2919,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ko</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2479,6 +2947,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>nan</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2498,6 +2970,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pa</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -2514,6 +2990,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>na</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -2523,6 +3003,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>sa</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -2537,6 +3021,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>na</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -2546,6 +3034,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>sin</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2580,6 +3072,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ne</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2599,6 +3095,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>na</text>
+        </lyric>
       </note>
     </measure>
     <measure number="25">
@@ -2615,6 +3115,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ni</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2640,6 +3144,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ni</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2660,6 +3168,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>mi</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2684,6 +3196,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>no</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2703,6 +3219,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ka</text>
+        </lyric>
       </note>
     </measure>
     <measure number="26">
@@ -2719,6 +3239,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>o</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2743,6 +3267,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>o</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2762,6 +3290,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ko</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2786,6 +3318,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>o</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2806,6 +3342,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>lin</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2842,6 +3382,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>o</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2861,6 +3405,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>na</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -2875,6 +3423,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>o</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2894,6 +3446,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pen</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2929,6 +3485,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pa</text>
+        </lyric>
       </note>
     </measure>
     <measure number="28">
@@ -2940,6 +3500,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ka</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -2950,6 +3514,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>la</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -2964,6 +3532,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pa</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -2974,6 +3546,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>li</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -2998,6 +3574,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pa</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -3008,6 +3588,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>li</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3029,6 +3613,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>sa</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -3043,6 +3631,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pan</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3067,6 +3659,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pa</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -3076,6 +3672,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>na</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -3090,6 +3690,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pi</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3116,6 +3720,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pi</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3136,6 +3744,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>lin</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3170,6 +3782,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pi</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3189,6 +3805,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>me</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3209,6 +3829,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ja</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -3225,6 +3849,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pi</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3244,6 +3872,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ni</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3269,6 +3901,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pi</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3288,6 +3924,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pi</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3312,6 +3952,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>po</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3331,6 +3975,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ka</text>
+        </lyric>
       </note>
     </measure>
     <measure number="32">
@@ -3347,6 +3995,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>po</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3366,6 +4018,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ki</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3390,6 +4046,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>po</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3409,6 +4069,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>na</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -3423,6 +4087,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pu</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3449,6 +4117,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>sa</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -3458,6 +4130,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -3472,6 +4148,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>se</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3492,6 +4172,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>li</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3516,6 +4200,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>se</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3538,6 +4226,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>lo</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3562,6 +4254,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>se</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3581,6 +4277,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>me</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3605,6 +4305,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>se</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3625,6 +4329,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>wi</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3651,6 +4359,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>si</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3671,6 +4383,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>je</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3692,6 +4408,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>lo</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3716,6 +4436,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>si</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3735,6 +4459,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ke</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3759,6 +4487,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>sin</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3795,6 +4527,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>si</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3814,6 +4550,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>na</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -3828,6 +4568,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>sin</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3857,6 +4601,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pin</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3891,6 +4639,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>si</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3912,6 +4664,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>te</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3932,6 +4688,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>len</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3966,6 +4726,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>so</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -3985,6 +4749,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>na</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -3999,6 +4767,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>so</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4019,6 +4791,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>we</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4042,6 +4818,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>li</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4066,6 +4846,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>su</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4087,6 +4871,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>li</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4111,6 +4899,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>su</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4131,6 +4923,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>no</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4157,6 +4953,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>su</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4177,6 +4977,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pa</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -4191,6 +4995,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>su</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4212,6 +5020,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>wi</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4236,6 +5048,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>tan</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4262,6 +5078,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ta</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -4271,6 +5091,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>so</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4295,6 +5119,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ta</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -4305,6 +5133,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>wa</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -4319,6 +5151,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>te</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4339,6 +5175,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>lo</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4365,6 +5205,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ten</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4394,6 +5238,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>po</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4418,6 +5266,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>to</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4437,6 +5289,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ki</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4461,6 +5317,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>to</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4482,6 +5342,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>mo</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4507,6 +5371,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>tu</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4531,6 +5399,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>un</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4560,6 +5432,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>pa</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -4574,6 +5450,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>u</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4595,6 +5475,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ta</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -4609,6 +5493,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>u</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4628,6 +5516,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ta</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -4638,6 +5530,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>la</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -4653,6 +5549,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>wa</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -4663,6 +5563,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>lo</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4690,6 +5594,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>wan</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4715,6 +5623,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>wa</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -4724,6 +5636,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>so</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4749,6 +5665,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>wa</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -4759,6 +5679,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>wa</text>
+        </lyric>
       </note>
     </measure>
     <measure number="45">
@@ -4776,6 +5700,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>we</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4796,6 +5724,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ka</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -4811,6 +5743,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>wi</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -4831,6 +5767,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>le</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>

@@ -58,11 +58,11 @@
         [(or #\. #\! #\?) 4])))
   (make-list n eighth-rest))
 
-;; lasting-chords->musicxml : [Listof [Lasting Chord]] -> MXexpr
+;; lasting-chords->musicxml : [Listof [Lasting LyricChord]] -> MXexpr
 (define (lasting-chords->musicxml wts)
   (score->musicxml (lasting-chords->score wts)))
 
-;; lasting-chords->score : [Listof [Lasting Chord]] -> Score
+;; lasting-chords->score : [Listof [Lasting LyricChord]] -> Score
 (define (lasting-chords->score lcs)
   (score
    #false

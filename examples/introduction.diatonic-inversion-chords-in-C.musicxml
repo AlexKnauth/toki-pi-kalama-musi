@@ -46,6 +46,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>to</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -65,6 +69,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ki</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -89,6 +97,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>mi</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -116,6 +128,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>jan</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -140,6 +156,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>A</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -150,6 +170,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>le</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -169,6 +193,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ku</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -200,6 +228,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>mi</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -224,6 +256,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>o</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -244,6 +280,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>lin</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -278,6 +318,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>e</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -304,6 +348,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ka</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -314,6 +362,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>la</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -323,6 +375,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ma</text>
+        </lyric>
       </note>
       <note>
         <rest></rest>
@@ -337,6 +393,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>mu</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>
@@ -356,6 +416,10 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>si</text>
+        </lyric>
       </note>
       <note>
         <chord></chord>

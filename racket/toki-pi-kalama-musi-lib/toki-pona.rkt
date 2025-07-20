@@ -3,6 +3,7 @@
 (provide (struct-out word)
          (struct-out punctuation)
          (struct-out syllable)
+         syllable->string
          wordtokens->string
          toki-pona-string->wordtokens)
 

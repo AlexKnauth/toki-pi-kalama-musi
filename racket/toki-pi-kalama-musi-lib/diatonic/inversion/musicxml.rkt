@@ -3,6 +3,7 @@
 (provide wordtokens->musicxml)
 
 (require racket/list
+         music/data/score/score
          music/data/time/main
          "../../toki-pona.rkt"
          "../../common/musicxml.rkt"
@@ -33,21 +34,27 @@
 
 ;; ---------------------------------------------------------
 
+;; A LyricChord is one of:
+;; - Chord
+;; - (cons Lyric Chord)
+
 ;; wordtokens->score-partwise : WordTokens -> MXexpr
 (define (wordtokens->musicxml wts)
   (lasting-chords->musicxml (wordtokens->lasting-chords wts)))
 
-;; wordtokens->lasting-chords : WordTokens -> [Listof [Lasting Chord]]
+;; wordtokens->lasting-chords : WordTokens -> [Listof [Lasting LyricChord]]
 (define (wordtokens->lasting-chords wts)
   (wordtokens-map-words->lasting-chords word->lasting-chords wts))
 
-;; word->lasting-chords : Word -> [Listof [Lasting Chord]]
+;; word->lasting-chords : Word -> [Listof [Lasting LyricChord]]
 (define (word->lasting-chords w)
   (map syllable->lasting-chord w))
 
-;; syllable->lasting-chord : Syllable -> [Lasting Chord]
+;; syllable->lasting-chord : Syllable -> [Lasting LyricChord]
 (define (syllable->lasting-chord s)
-  (lasting duration-eighth (syllable->chord s)))
+  (lasting duration-eighth
+           (cons (lyric "1" 'single (syllable->string s))
+                 (syllable->chord s))))
 
 ;; ---------------------------------------------------------
 
