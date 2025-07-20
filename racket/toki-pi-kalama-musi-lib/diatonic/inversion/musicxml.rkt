@@ -3,6 +3,7 @@
 (provide wordtokens->musicxml)
 
 (require racket/list
+         racket/match
          music/data/score/score
          music/data/time/main
          "../../toki-pona.rkt"
@@ -52,13 +53,23 @@
   (define nm1 (sub1 n))
   (for/list ([s (in-list w)]
              [i (in-range n)])
-    (syllable->lasting-chord s (if (= i nm1) e ""))))
+    (syllable->lasting-chord s (zero? i) (= i nm1) (if (= i nm1) e ""))))
 
-;; syllable->lasting-chord : Syllable String -> [Lasting LyricChord]
-(define (syllable->lasting-chord s e)
+;; syllable->lasting-chord : Syllable Bool Bool String -> [Lasting LyricChord]
+(define (syllable->lasting-chord s fst? lst? e)
   (lasting duration-eighth
-           (cons (lyric "1" 'single (string-append (syllable->string s) e))
+           (cons (lyric "1"
+                        (syllabic fst? lst?)
+                        (string-append (syllable->string s) e))
                  (syllable->chord s))))
+
+;; syllabic : Bool Bool -> Syllabic
+(define (syllabic fst? lst?)
+  (match* [fst? lst?]
+    [[#true #true] 'single]
+    [[#true #false] 'begin]
+    [[#false #false] 'middle]
+    [[#false #true] 'end]))
 
 ;; ---------------------------------------------------------
 

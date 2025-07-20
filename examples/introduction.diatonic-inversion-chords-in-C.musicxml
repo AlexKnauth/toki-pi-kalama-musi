@@ -47,7 +47,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <lyric number="1">
-          <syllabic>single</syllabic>
+          <syllabic>begin</syllabic>
           <text>to</text>
         </lyric>
       </note>
@@ -70,7 +70,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <lyric number="1">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>ki!</text>
         </lyric>
       </note>
@@ -157,7 +157,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <lyric number="1">
-          <syllabic>single</syllabic>
+          <syllabic>begin</syllabic>
           <text>A</text>
         </lyric>
       </note>
@@ -171,7 +171,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <lyric number="1">
-          <syllabic>single</syllabic>
+          <syllabic>middle</syllabic>
           <text>le</text>
         </lyric>
       </note>
@@ -194,7 +194,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <lyric number="1">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>ku.</text>
         </lyric>
       </note>
@@ -257,7 +257,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <lyric number="1">
-          <syllabic>single</syllabic>
+          <syllabic>begin</syllabic>
           <text>o</text>
         </lyric>
       </note>
@@ -281,7 +281,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <lyric number="1">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>lin</text>
         </lyric>
       </note>
@@ -349,7 +349,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <lyric number="1">
-          <syllabic>single</syllabic>
+          <syllabic>begin</syllabic>
           <text>ka</text>
         </lyric>
       </note>
@@ -363,7 +363,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <lyric number="1">
-          <syllabic>single</syllabic>
+          <syllabic>middle</syllabic>
           <text>la</text>
         </lyric>
       </note>
@@ -376,7 +376,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <lyric number="1">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>ma</text>
         </lyric>
       </note>
@@ -394,7 +394,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <lyric number="1">
-          <syllabic>single</syllabic>
+          <syllabic>begin</syllabic>
           <text>mu</text>
         </lyric>
       </note>
@@ -417,7 +417,7 @@
         <voice>1</voice>
         <type>eighth</type>
         <lyric number="1">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>si.</text>
         </lyric>
       </note>
