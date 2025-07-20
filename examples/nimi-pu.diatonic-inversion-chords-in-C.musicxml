@@ -135,6 +135,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>a</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
     </measure>
@@ -152,8 +153,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>a</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -235,6 +235,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>a</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
     </measure>
@@ -252,8 +253,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>a</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -342,6 +342,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>an</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
       <note>
@@ -374,8 +375,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>an</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -478,6 +478,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>a</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
     </measure>
@@ -495,8 +496,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>a</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -595,6 +595,7 @@
         <lyric number="1">
           <syllabic>single</syllabic>
           <text>e</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
       <note>
@@ -626,8 +627,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>e</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -1134,6 +1134,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>ka</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
     </measure>
@@ -1151,8 +1152,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>ka</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -1234,6 +1234,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>ka</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
     </measure>
@@ -1251,8 +1252,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>ka</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -1329,6 +1329,7 @@
         <lyric number="1">
           <syllabic>single</syllabic>
           <text>ken</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
       <note>
@@ -1374,8 +1375,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>ken</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -1734,6 +1734,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>ku</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
       <note>
@@ -1765,8 +1766,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>ku</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -1902,6 +1902,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>ku</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
       <note>
@@ -1933,8 +1934,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>ku</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -2513,6 +2513,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>lu</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
       <note>
@@ -2545,8 +2546,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>lu</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -2659,6 +2659,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>lu</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
       <note>
@@ -2691,8 +2692,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>lu</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -3260,6 +3260,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>mu</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
       <note>
@@ -3291,8 +3292,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>mu</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -3406,6 +3406,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>nan</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
       <note>
@@ -3437,8 +3438,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>nan</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -3519,6 +3519,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>na</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
     </measure>
@@ -3536,8 +3537,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>na</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -3634,6 +3634,7 @@
         <lyric number="1">
           <syllabic>single</syllabic>
           <text>ni</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
       <note>
@@ -3666,8 +3667,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>ni</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -4464,6 +4464,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>pi</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
       <note>
@@ -4495,8 +4496,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>pi</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -4597,6 +4597,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>po</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
       <note>
@@ -4628,8 +4629,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>po</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -4730,6 +4730,7 @@
         <lyric number="1">
           <syllabic>single</syllabic>
           <text>pu</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
       <note>
@@ -4761,8 +4762,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>pu</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -6138,6 +6138,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>u</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
       <note>
@@ -6169,8 +6170,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>u</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -6276,6 +6276,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>wa</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
     </measure>
@@ -6294,8 +6295,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>wa</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>

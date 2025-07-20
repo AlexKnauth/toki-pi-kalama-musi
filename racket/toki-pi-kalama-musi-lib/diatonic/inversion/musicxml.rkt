@@ -61,7 +61,8 @@
   (lasting (syllable-duration n fst? lst?)
            (cons (lyric "1"
                         (syllabic fst? lst?)
-                        (string-append (syllable->string s) e))
+                        (string-append (syllable->string s) e)
+                        #false)
                  (syllable->chord s))))
 
 ;; syllable-duration : Nat Bool Bool -> Duration

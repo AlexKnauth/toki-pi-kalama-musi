@@ -104,6 +104,7 @@
         <lyric number="1">
           <syllabic>single</syllabic>
           <text>mi</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
       <note>
@@ -135,8 +136,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>mi</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
@@ -297,6 +297,7 @@
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>o</text>
+          <extend type="start"></extend>
         </lyric>
       </note>
       <note>
@@ -328,8 +329,7 @@
           <tied type="stop"></tied>
         </notations>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>o</text>
+          <extend type="end"></extend>
         </lyric>
       </note>
       <note>
