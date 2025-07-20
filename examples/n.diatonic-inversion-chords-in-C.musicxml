@@ -76,7 +76,7 @@
         <type>eighth</type>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>n</text>
+          <text>n...</text>
         </lyric>
       </note>
       <note>
@@ -91,7 +91,7 @@
       </note>
       <note>
         <rest></rest>
-        <duration>1</duration>
+        <duration>3</duration>
         <voice>1</voice>
       </note>
       <note>
@@ -122,6 +122,8 @@
           <text>wa</text>
         </lyric>
       </note>
+    </measure>
+    <measure number="2">
       <note>
         <rest></rest>
         <duration>1</duration>
@@ -141,8 +143,6 @@
           <text>la</text>
         </lyric>
       </note>
-    </measure>
-    <measure number="2">
       <note>
         <rest></rest>
         <duration>1</duration>
@@ -229,6 +229,8 @@
         <duration>1</duration>
         <voice>1</voice>
       </note>
+    </measure>
+    <measure number="3">
       <note>
         <pitch>
           <step>A</step>
@@ -267,8 +269,6 @@
         <duration>1</duration>
         <voice>1</voice>
       </note>
-    </measure>
-    <measure number="3">
       <note>
         <pitch>
           <step>C</step>
@@ -342,6 +342,8 @@
         <duration>1</duration>
         <voice>1</voice>
       </note>
+    </measure>
+    <measure number="4">
       <note>
         <pitch>
           <step>C</step>
@@ -370,8 +372,6 @@
         <duration>1</duration>
         <voice>1</voice>
       </note>
-    </measure>
-    <measure number="4">
       <note>
         <pitch>
           <step>G</step>
@@ -398,7 +398,12 @@
       </note>
       <note>
         <rest></rest>
-        <duration>7</duration>
+        <duration>4</duration>
+        <voice>1</voice>
+      </note>
+      <note>
+        <rest></rest>
+        <duration>1</duration>
         <voice>1</voice>
       </note>
     </measure>

@@ -10,6 +10,7 @@
 
 (require racket/list
          racket/match
+         racket/string
          music/notation/musicxml/score
          music/data/score/main
          music/data/time/main
@@ -51,11 +52,14 @@
 ;; (many+/p (char-in/p ".!?,;"))
 (define (punctuation->lasting-rests s)
   (define n
-    (for/sum ([c (in-string s)])
-      (match c
-        [#\, 2]
-        [#\; 3]
-        [(or #\. #\! #\?) 4])))
+    (match s
+      ["-" 1]
+      ["," 2]
+      ["." 4]
+      [x #:when (string-contains? x "?") 4]
+      [x #:when (string-contains? x "!") 4]
+      [_ ; ":" ";" ".." "..." "--" "---" ",," etc.
+       3]))
   (make-list n eighth-rest))
 
 ;; lasting-chords->musicxml : [Listof [Lasting LyricChord]] -> MXexpr
