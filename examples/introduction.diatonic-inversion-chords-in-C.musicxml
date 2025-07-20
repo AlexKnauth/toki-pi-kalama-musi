@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN"
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN"
 "http://www.musicxml.org/dtds/partwise.dtd">
-<score-partwise version="3.0">
+<score-partwise version="4.0">
   <part-list>
     <score-part id="P1">
       <part-name>Music</part-name>
@@ -46,7 +46,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <chord></chord>
@@ -57,7 +56,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <pitch>
@@ -67,7 +65,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <chord></chord>
@@ -78,7 +75,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <rest></rest>
@@ -93,7 +89,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <chord></chord>
@@ -104,7 +99,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <rest></rest>
@@ -122,7 +116,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <chord></chord>
@@ -133,7 +126,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <rest></rest>
@@ -148,7 +140,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <pitch>
@@ -159,7 +150,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <chord></chord>
@@ -170,7 +160,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <pitch>
@@ -180,7 +169,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <chord></chord>
@@ -191,7 +179,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <rest></rest>
@@ -213,7 +200,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <chord></chord>
@@ -224,7 +210,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <rest></rest>
@@ -239,7 +224,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <chord></chord>
@@ -250,7 +234,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <pitch>
@@ -261,7 +244,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <chord></chord>
@@ -272,7 +254,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <chord></chord>
@@ -283,7 +264,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <rest></rest>
@@ -298,7 +278,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <chord></chord>
@@ -309,7 +288,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <rest></rest>
@@ -326,7 +304,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <pitch>
@@ -337,7 +314,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <pitch>
@@ -347,7 +323,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <rest></rest>
@@ -362,7 +337,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <chord></chord>
@@ -373,7 +347,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <pitch>
@@ -383,7 +356,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <chord></chord>
@@ -394,7 +366,6 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <notations></notations>
       </note>
       <note>
         <rest></rest>
