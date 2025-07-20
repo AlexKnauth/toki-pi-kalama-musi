@@ -79,17 +79,23 @@
       lcs)))))
 
 ;; wordtokens-map-words->lasting-chords :
-;; [Word -> [Listof [Lasting Chord]]] WordTokens -> [Listof [Lasting Chord]]
+;;   [Word String -> [Listof [Lasting LyricChord]]]
+;;   WordTokens
+;;   ->
+;;   [Listof [Lasting LyricChord]]
 (define (wordtokens-map-words->lasting-chords word->lasting-chords wts)
   (match wts
     ['() '()]
-    [(list (word w)) (word->lasting-chords w)]
+    [(list (word w)) (word->lasting-chords w "")]
     [(list (punctuation s)) (punctuation->lasting-rests s)]
-    [(cons (word w) (and rst (cons (punctuation _) _)))
-     (append (word->lasting-chords w)
+    [(list (word w) (punctuation s))
+     (append (word->lasting-chords w s)
+             (punctuation->lasting-rests s))]
+    [(cons (word w) (and rst (cons (punctuation s) _)))
+     (append (word->lasting-chords w s)
              (wordtokens-map-words->lasting-chords word->lasting-chords rst))]
     [(cons (word w) rst)
-     (append (word->lasting-chords w)
+     (append (word->lasting-chords w "")
              (list eighth-rest)
              (wordtokens-map-words->lasting-chords word->lasting-chords rst))]
     [(cons (punctuation s) rst)

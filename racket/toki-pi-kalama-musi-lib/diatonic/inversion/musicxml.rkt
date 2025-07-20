@@ -46,14 +46,18 @@
 (define (wordtokens->lasting-chords wts)
   (wordtokens-map-words->lasting-chords word->lasting-chords wts))
 
-;; word->lasting-chords : Word -> [Listof [Lasting LyricChord]]
-(define (word->lasting-chords w)
-  (map syllable->lasting-chord w))
+;; word->lasting-chords : Word String -> [Listof [Lasting LyricChord]]
+(define (word->lasting-chords w e)
+  (define n (length w))
+  (define nm1 (sub1 n))
+  (for/list ([s (in-list w)]
+             [i (in-range n)])
+    (syllable->lasting-chord s (if (= i nm1) e ""))))
 
-;; syllable->lasting-chord : Syllable -> [Lasting LyricChord]
-(define (syllable->lasting-chord s)
+;; syllable->lasting-chord : Syllable String -> [Lasting LyricChord]
+(define (syllable->lasting-chord s e)
   (lasting duration-eighth
-           (cons (lyric "1" 'single (syllable->string s))
+           (cons (lyric "1" 'single (string-append (syllable->string s) e))
                  (syllable->chord s))))
 
 ;; ---------------------------------------------------------
