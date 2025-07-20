@@ -224,7 +224,7 @@
         (map word word/p)))
 
 ;; wordtokens/p : [Parser Char WordTokens]
-#;(module+ test
+(module+ test
   (check-parse-string
    wordtokens/p
    "toki pona."
