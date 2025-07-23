@@ -20,5 +20,10 @@ png:
 		mscore -T 15 -o "$${i%%.musicxml}.png" "$$i" ; \
 	done
 
+mp3:
+	for i in examples/*.musicxml; do \
+		mscore -o "$${i%%.musicxml}.mp3" "$$i" ; \
+	done
+
 tidy:
 	tidy -iqm -wrap 0 -xml examples/*.musicxml
