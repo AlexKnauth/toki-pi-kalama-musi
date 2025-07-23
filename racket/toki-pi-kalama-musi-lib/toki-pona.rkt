@@ -5,7 +5,8 @@
          (struct-out syllable)
          syllable->string
          wordtokens->string
-         toki-pona-string->wordtokens)
+         toki-pona-string->wordtokens
+         toki-pona-string->word)
 
 (require racket/function
          racket/match
@@ -170,9 +171,32 @@
 (define (toki-pona-string->wordtokens s)
   (parse-result! (parse-string wordtokens/p (string-trim s))))
 
+;; toki-pona-string->word : String -> Word
+(module+ test
+  (check-equal?
+   (toki-pona-string->word "toki")
+   (word (list (syllable #f "t" "o") (syllable #f "k" "i"))))
+  (check-equal?
+   (toki-pona-string->word "pona")
+   (word (list (syllable #f "p" "o") (syllable #f "n" "a"))))
+  (check-equal?
+   (toki-pona-string->word "Aleku")
+   (word (list (syllable #t "" "a") (syllable #f "l" "e") (syllable #f "k" "u"))))
+  (check-equal?
+   (toki-pona-string->word "n")
+   (word (list (syllable #f "n" ""))))
+  )
+
+(define (toki-pona-string->word s)
+  (parse-result! (parse-string word/p (string-trim s))))
+
 ;; punctuation-string/p : [Parser Char String]
 (define punctuation-string/p
   (map list->string (many+/p (char-in/p ".!?,;-"))))
+
+;; punctuation/p : [Parser Char Punctuation]
+(define punctuation/p
+  (map punctuation punctuation-string/p))
 
 ;; syllable/p : [Parser Char Syllable]
 (module+ test
@@ -188,7 +212,7 @@
 (define syllable/p
   (do
     [onset <- (or/p consonant/p (pure #f))]
-    [nucleus <- (if (and (char? onset) (char-ci=? onset #\n))
+    [nucleus <- (if (char? onset)
                     (or/p vowel/p
                           (do (lookahead-not-satisfy/p char-alphabetic?) (pure #f)))
                     vowel/p)]
@@ -204,24 +228,25 @@
 
 ;; word/p : [Parser Char Word]
 (module+ test
-  (check-parse-string word/p "li" (list (syllable #f "l" "i")))
-  (check-parse-string word/p "e" (list (syllable #f "" "e")))
-  (check-parse-string word/p "o" (list (syllable #f "" "o")))
-  (check-parse-string word/p "jan" (list (syllable #f "j" "an")))
+  (check-parse-string word/p "li" (word (list (syllable #f "l" "i"))))
+  (check-parse-string word/p "e" (word (list (syllable #f "" "e"))))
+  (check-parse-string word/p "o" (word (list (syllable #f "" "o"))))
+  (check-parse-string word/p "jan" (word (list (syllable #f "j" "an"))))
   (check-parse-string word/p "sona"
-                      (list (syllable #f "s" "o") (syllable #f "n" "a")))
+                      (word (list (syllable #f "s" "o") (syllable #f "n" "a"))))
   (check-parse-string word/p "Sonja"
-                      (list (syllable #t "s" "on") (syllable #f "j" "a")))
+                      (word (list (syllable #t "s" "on") (syllable #f "j" "a"))))
   )
 
 (define word/p
-  (<* (many+/p syllable/p)
-      (lookahead-not-satisfy/p char-alphanumeric?)))
+  (map word
+       (<* (many+/p syllable/p)
+           (lookahead-not-satisfy/p char-alphanumeric?))))
 
 ;; wordtoken/p : [Parser Char WordToken]
 (define wordtoken/p
-  (or/p (map punctuation punctuation-string/p)
-        (map word word/p)))
+  (or/p punctuation/p
+        word/p))
 
 ;; wordtokens/p : [Parser Char WordTokens]
 (module+ test
