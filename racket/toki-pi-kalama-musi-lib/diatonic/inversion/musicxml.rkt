@@ -59,11 +59,13 @@
 ;; syllable->lasting-chord : Syllable Nat Bool Bool String -> [Lasting LyricChord]
 (define (syllable->lasting-chord s n fst? lst? e)
   (lasting (syllable-duration n fst? lst?)
-           (cons (lyric "1"
-                        (syllabic fst? lst?)
-                        (string-append (syllable->string s) e)
-                        #false)
-                 (syllable->chord s))))
+           (append
+            (if (syllable-up? s) (list (accent)) '())
+            (cons (lyric "1"
+                         (syllabic fst? lst?)
+                         (string-append (syllable->string s) e)
+                         #false)
+                  (syllable->chord s)))))
 
 ;; syllable-duration : Nat Bool Bool -> Duration
 (define (syllable-duration n fst? lst?)

@@ -195,6 +195,11 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
+        <notations>
+          <articulations>
+            <accent></accent>
+          </articulations>
+        </notations>
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>A</text>
