@@ -22,15 +22,15 @@ The 10 possible starts of syllables are represented with the 10 possible notes t
 
  degree | solfege | numeral  | start
 --------|---------|----------|-------
-  b6    |   le    |   bVI    | j
-  b3    |   me    |   bIII   | w
-  b7    |   te    |   bVII   | l
-   4    |   fa    |   IV     | m
    1    |   do    |    I     | --
-   5    |   sol   |    V     | n
    2    |   re    |    II    | s
-   6    |   la    |    VI    | k
+  b3    |   me    |   bIII   | w
    3    |   mi    |    III   | p
+   4    |   fa    |   IV     | m
+   5    |   sol   |    V     | n
+  b6    |   le    |   bVI    | j
+   6    |   la    |    VI    | k
+  b7    |   te    |   bVII   | l
    7    |   ti    |    VII   | t
 
 

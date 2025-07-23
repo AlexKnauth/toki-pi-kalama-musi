@@ -13,27 +13,27 @@
 #|
  degree | solfege | numeral  | start
 --------|---------|----------|-------
-  b6    |   le    |   bVI    | j
-  b3    |   me    |   bIII   | w
-  b7    |   te    |   bVII   | l
-   4    |   fa    |   IV     | m
    1    |   do    |    I     | --
-   5    |   sol   |    V     | n
    2    |   re    |    II    | s
-   6    |   la    |    VI    | k
+  b3    |   me    |   bIII   | w
    3    |   mi    |    III   | p
+   4    |   fa    |    IV    | m
+   5    |   sol   |    V     | n
+  b6    |   le    |   bVI    | j
+   6    |   la    |    VI    | k
+  b7    |   te    |   bVII   | l
    7    |   ti    |    VII   | t
 |#
 (define syllable-start/chord-root-table
-  '[("j" "bVI")
-    ("w" "bIII")
-    ("l" "bVII")
-    ("m" "IV")
-    ("" "I")
-    ("n" "V")
+  '[("" "I")
     ("s" "II")
-    ("k" "VI")
+    ("w" "bIII")
     ("p" "III")
+    ("m" "IV")
+    ("n" "V")
+    ("j" "bVI")
+    ("k" "VI")
+    ("l" "bVII")
     ("t" "VII")])
 (define chord-root/syllable-start-table
   (map reverse syllable-start/chord-root-table))
