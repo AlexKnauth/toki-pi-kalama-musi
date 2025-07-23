@@ -27,7 +27,7 @@ mp3:
 
 mp4:
 	for i in examples/*.mp3; do \
-		ffmpeg -i "$$i" -i "$${i%%.mp3}-1.png" "$${i%%.mp3}.mp4" ; \
+		ffmpeg -y -i "$$i" -i "$${i%%.mp3}-1.png" -vf "pad=ceil(iw/2)*2:ceil(ih/2)*2:color=white" -pix_fmt yuv420p "$${i%%.mp3}.mp4" ; \
 	done
 
 tidy:
