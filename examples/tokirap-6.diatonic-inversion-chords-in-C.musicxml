@@ -213,8 +213,7 @@
     <measure number="3">
       <note>
         <pitch>
-          <step>B</step>
-          <alter>-1</alter>
+          <step>E</step>
           <octave>4</octave>
         </pitch>
         <duration>2</duration>
@@ -227,7 +226,8 @@
       </note>
       <note>
         <pitch>
-          <step>E</step>
+          <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
         </pitch>
         <duration>1</duration>
@@ -241,9 +241,8 @@
       <note>
         <chord></chord>
         <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>4</octave>
+          <step>F</step>
+          <octave>5</octave>
         </pitch>
         <duration>1</duration>
         <voice>1</voice>
@@ -310,7 +309,8 @@
     <measure number="4">
       <note>
         <pitch>
-          <step>E</step>
+          <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
         </pitch>
         <duration>2</duration>
@@ -323,8 +323,7 @@
       </note>
       <note>
         <pitch>
-          <step>B</step>
-          <alter>-1</alter>
+          <step>E</step>
           <octave>4</octave>
         </pitch>
         <duration>1</duration>
@@ -338,8 +337,8 @@
       <note>
         <chord></chord>
         <pitch>
-          <step>D</step>
-          <octave>5</octave>
+          <step>G</step>
+          <octave>4</octave>
         </pitch>
         <duration>1</duration>
         <voice>1</voice>
@@ -495,7 +494,8 @@
       </note>
       <note>
         <pitch>
-          <step>E</step>
+          <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
         </pitch>
         <duration>1</duration>
@@ -508,8 +508,7 @@
       </note>
       <note>
         <pitch>
-          <step>B</step>
-          <alter>-1</alter>
+          <step>E</step>
           <octave>4</octave>
         </pitch>
         <duration>1</duration>
@@ -523,8 +522,8 @@
       <note>
         <chord></chord>
         <pitch>
-          <step>D</step>
-          <octave>5</octave>
+          <step>G</step>
+          <octave>4</octave>
         </pitch>
         <duration>1</duration>
         <voice>1</voice>
@@ -575,8 +574,7 @@
       </note>
       <note>
         <pitch>
-          <step>B</step>
-          <alter>-1</alter>
+          <step>E</step>
           <octave>4</octave>
         </pitch>
         <duration>1</duration>
@@ -590,8 +588,8 @@
       <note>
         <chord></chord>
         <pitch>
-          <step>E</step>
-          <octave>5</octave>
+          <step>A</step>
+          <octave>4</octave>
         </pitch>
         <duration>1</duration>
         <voice>1</voice>
@@ -627,7 +625,8 @@
       </note>
       <note>
         <pitch>
-          <step>E</step>
+          <step>B</step>
+          <alter>-1</alter>
           <octave>4</octave>
         </pitch>
         <duration>1</duration>
@@ -701,8 +700,7 @@
       </note>
       <note>
         <pitch>
-          <step>B</step>
-          <alter>-1</alter>
+          <step>E</step>
           <octave>4</octave>
         </pitch>
         <duration>1</duration>

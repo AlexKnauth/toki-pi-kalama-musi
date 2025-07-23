@@ -1,1 +1,1 @@
-B♭/D E1 / B♭Maj7 A♭1 / C7 D1 / D5 E-b5/B♭ / D5/A , Am E♭5Maj7 / D57/A , B-b5 E-b5/B♭ / D5 E♭ / C17 E1 / Dm7 Em7 / B♭5Maj7/F Dm / A♭1Maj7 , F5 B♭ / F A♭5 / E57/B Dm
+B♭/D B♭1 / Em7 A♭1 / C7 D1 / D5 A5/E / D5/A , Am E♭5Maj7 / D57/A , B-b5 A5/E / D5 E♭ / C17 B♭1 / Dm7 B♭Maj7 / B♭5Maj7/F Dm / A♭1Maj7 , F5 Em / F A♭5 / E57/B Dm

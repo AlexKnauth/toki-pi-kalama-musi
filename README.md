@@ -25,12 +25,12 @@ The 10 possible starts of syllables are represented with the 10 possible notes t
    1    |   do    |    I     | --
    2    |   re    |    II    | s
   b3    |   me    |   bIII   | w
-   3    |   mi    |    III   | p
-   4    |   fa    |   IV     | m
+   3    |   mi    |    III   | l
+   4    |   fa    |    IV    | m
    5    |   sol   |    V     | n
   b6    |   le    |   bVI    | j
    6    |   la    |    VI    | k
-  b7    |   te    |   bVII   | l
+  b7    |   te    |   bVII   | p
    7    |   ti    |    VII   | t
 
 
