@@ -224,6 +224,11 @@
         <type>eighth</type>
         <stem>up</stem>
         <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <accent />
+          </articulations>
+        </notations>
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>A</text>
