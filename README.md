@@ -78,6 +78,12 @@ With interval qualities from scales on the roots:
 
 ![introduction diatonic-chords-in-C](https://raw.githubusercontent.com/AlexKnauth/toki-pi-kalama-musi/refs/heads/main/examples/introduction.diatonic-inversion-chords-in-C-1.png)
 
+
+
+https://github.com/user-attachments/assets/af007c2b-a358-42cd-9682-f828580f24b9
+
+
+
 ## Instalation Instructions
 
 Either in a clone or directly with the racket package manager
