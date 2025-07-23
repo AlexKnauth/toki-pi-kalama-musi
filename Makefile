@@ -15,5 +15,10 @@ diatonic-inversion-chord-names:
 diatonic-inversion-figured-names:
 	racket racket/toki-pi-kalama-musi-lib/diatonic/inversion/figured-names.rkt -f examples/
 
+png:
+	for i in examples/*.musicxml; do \
+		mscore -T 15 -o "$${i%%.musicxml}.png" "$$i" ; \
+	done
+
 tidy:
 	tidy -iqm -wrap 0 -xml examples/*.musicxml
