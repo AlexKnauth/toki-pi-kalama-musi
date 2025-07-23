@@ -25,5 +25,10 @@ mp3:
 		mscore -o "$${i%%.musicxml}.mp3" "$$i" ; \
 	done
 
+mp4:
+	for i in examples/*.mp3; do \
+		ffmpeg -i "$$i" -i "$${i%%.mp3}-1.png" "$${i%%.mp3}.mp4" ; \
+	done
+
 tidy:
 	tidy -iqm -wrap 0 -xml examples/*.musicxml

@@ -13,3 +13,4 @@ doc/
 
 # Project-specific ignored
 /future/
+*.mp3
