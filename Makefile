@@ -1,11 +1,5 @@
 
-all: diatonic
-
-diatonic: diatonic-inversion
-
-diatonic-inversion: diatonic-inversion-musicxml
-
-diatonic-inversion-musicxml:
+musicxml:
 	racket racket/toki-pi-kalama-musi-lib/diatonic/inversion/musicxml.rkt -f examples/
 
 png:

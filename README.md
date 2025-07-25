@@ -76,7 +76,7 @@ With interval qualities from scales on the roots:
    3   | Locrian    | 1 b2 b3  4 b5 b6 b7
    7   | Locrian    | 1 b2 b3  4 b5 b6 b7
 
-![introduction diatonic-chords-in-C](https://raw.githubusercontent.com/AlexKnauth/toki-pi-kalama-musi/refs/heads/main/examples/introduction.diatonic-inversion-chords-in-C-1.png)
+![introduction chords-in-C](https://raw.githubusercontent.com/AlexKnauth/toki-pi-kalama-musi/refs/heads/main/examples/introduction.chords-in-C-1.png)
 
 
 
