@@ -192,7 +192,7 @@
 
 ;; punctuation-string/p : [Parser Char String]
 (define punctuation-string/p
-  (map list->string (many+/p (char-in/p ".!?,;-"))))
+  (map list->string (many+/p (char-in/p ".!?,;:-"))))
 
 ;; punctuation/p : [Parser Char Punctuation]
 (define punctuation/p
